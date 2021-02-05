@@ -1,8 +1,96 @@
-.hero {
-  min-height: 70vh;
+@import url("../../index.css");
+* {
+  --primary-color: #2f294f;
+  --secondary-color: #f53361;
+  --tertiary-color: #ea99fb;
 }
-h2.header {
+
+/* HERO SECTION */
+/* .projects-container {
+  border-left: 5px solid var(--primary-color);
+} */
+.hero-container {
+  min-height: 65vh;
+  /* padding-bottom: 25%; */
+  /* border-bottom: 5px solid var(--primary-color); */
+  margin-bottom: 10%;
+  /* border-left: 5px solid var(--primary-color); */
+}
+
+.header {
   font-size: 84px;
   font-weight: 800;
   color: var(--primary-color);
+}
+.big-list {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.project-a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.15s ease-in-out;
+}
+
+.project-a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.caret-a,
+.caret-a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.secondary {
+  color: var(--secondary-color);
+}
+.project-a {
+  position: relative;
+}
+
+.project-a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+.project-a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.bottom-margin-twenty {
+  margin-bottom: 20%;
+}
+.project-heading {
+  font-size: 56px;
+  font-weight: 600;
 }

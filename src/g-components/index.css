@@ -5,14 +5,26 @@ nav {
   font-size: 14px;
   font-weight: 500;
 }
-.nav-link {
+.nav-a {
+  text-decoration: none;
+  color: var(--primary-color);
   cursor: pointer;
+}
+.nav-a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.nav-link {
   transition: all 0.15s ease-in-out;
   font-size: 1rem;
+  text-decoration: none;
 }
 /* .nav-link:hover {
   
 } */
+.secondary-link {
+  cursor: pointer !important;
+}
 .nav-link.secondary-link:hover {
   transform: rotate(5deg);
 }

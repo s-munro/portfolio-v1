@@ -8,25 +8,42 @@ const Nav = () => {
       <div className="col-7">
         <div>
           <li className="nav-link col-12 home-link">
-            <span className="secondary">:</span>Sam
+            <a className="nav-a pointer" href="/">
+              <span className="secondary">:</span>Sam
+            </a>
           </li>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
-        <li className="nav-link secondary-link">Projects</li>
+        <a className="nav-a pointer" href="/projects">
+          <li className="nav-link secondary-link">Projects</li>
+        </a>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
         <li className="nav-link secondary-link">Resume</li>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
         {/* <AiFillGithub /> */}
-        <li className="nav-link secondary-link">Github</li>
+        <li className="nav-link secondary-link">
+          <a className="nav-a pointer" href="https://github.com/s-munro">
+            Github
+          </a>
+        </li>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
-        <li className="nav-link secondary-link">Linkedin</li>
+        <li className="nav-link secondary-link">
+          <a
+            className="nav-a pointer"
+            href="https://www.linkedin.com/in/sjm-munro/"
+          >
+            Linkedin
+          </a>
+        </li>
       </div>
       <div data-aos="fade-up" data-aos-delay="1300" className="col-1">
-        <li className="nav-link secondary-link tertiary">Contact</li>
+        <a className="nav-a pointer" href="/contact">
+          <li className="nav-link secondary-link tertiary">Contact</li>
+        </a>
       </div>
     </nav>
   );
