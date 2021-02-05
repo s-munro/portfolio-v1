@@ -1,11 +1,14 @@
+* {
+  font-family: "Poppins", sans-serif;
+  --primary-color: #2f294f;
+  --secondary-color: #f53361;
+  --tertiary-color: #ea99fb;
+  color: var(--primary-color);
+}
 body {
   margin: 0;
-  font-family: forma-djr-display, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-h1 {
-  font-size: 64px;
 }
 
 code {

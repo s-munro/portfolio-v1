@@ -1,0 +1,8 @@
+.hero {
+  min-height: 70vh;
+}
+h2.header {
+  font-size: 84px;
+  font-weight: 800;
+  color: var(--primary-color);
+}

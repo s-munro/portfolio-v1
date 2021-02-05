@@ -1,0 +1,27 @@
+@import url("../index.css");
+
+nav {
+  height: 10vh;
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-link {
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  font-size: 1rem;
+}
+/* .nav-link:hover {
+  
+} */
+.nav-link.secondary-link:hover {
+  transform: rotate(5deg);
+}
+.secondary {
+  color: var(--secondary-color);
+}
+.tertiary {
+  color: var(--tertiary-color);
+}
+.home-link {
+  font-size: 1.4rem;
+}
