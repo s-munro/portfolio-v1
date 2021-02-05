@@ -1,5 +1,5 @@
 import React from "react";
-import gif from "../../assets/easyscore-giphy-demo.gif";
+import gif from "../../assets/vr-funder-demo.gif";
 
 const VRFunderSection = () => {
   return (
