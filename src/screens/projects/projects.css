@@ -30,6 +30,8 @@
 .project-a {
   text-decoration: none;
   color: var(--primary-color);
+}
+.animated-underline {
   transition: all 0.15s ease-in-out;
 }
 
@@ -50,7 +52,7 @@
   position: relative;
 }
 
-.project-a:before {
+.animated-underline:before {
   content: "";
   position: absolute;
   width: 0;
@@ -61,7 +63,7 @@
   visibility: hidden;
   transition: all 0.4s ease-in-out;
 }
-.project-a:hover:before {
+.animated-underline:hover:before {
   visibility: visible;
   width: 100%;
 }
@@ -93,4 +95,81 @@
 .project-heading {
   font-size: 56px;
   font-weight: 600;
+}
+.gif {
+  /* border: 5px solid var(--tertiary-color); */
+  border-radius: 15px;
+  box-shadow: 0px 3px 20px 0px #00000010;
+}
+.underline-base {
+  position: relative;
+}
+.animated-underline-2 {
+  transition: all 0.15s ease-in-out;
+}
+.animated-underline-2:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.animated-underline-2:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.animated-underline-3 {
+  transition: all 0.15s ease-in-out;
+}
+.animated-underline-3:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.animated-underline-3:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+.pseudo-link {
+  cursor: pointer;
+}
+.stats-container {
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0px 3px 20px 0px #00000010;
+}
+.stat {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  line-height: 1rem;
+  font-size: 0.9rem;
+}
+.stat-title {
+  font-weight: 500;
+}
+.stat.center {
+  text-align: center;
+}
+.stat-link {
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.stat-link:hover {
+  /* color: var(--tertiary-color); */
+  text-decoration: none;
+  color: var(--primary-color);
 }
