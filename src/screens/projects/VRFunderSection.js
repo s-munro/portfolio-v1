@@ -9,25 +9,29 @@ const VRFunderSection = () => {
         className="col-12 d-flex flex-column align-items-center justify-content-center mb-5"
       >
         <h2 className="project-heading">VR-Funder</h2>
-        <h6>An advanced course-planning resource for college students</h6>
+        <h6>
+          A VR Funding platform for fundraisers to list startups and funders to
+          browse/fund
+        </h6>
       </div>
       <div className="col-4 d-flex flex-column align-items-start justify-content-center">
-        <p className="stat-title">Lead Developer</p>
+        <p className="stat-title">Front-End Developer</p>
         <p className="stat">
-          Organized and implemented site design and development
+          Developed/Implemented private routing, CRUD operations, global state,
+          validation
         </p>
-        <p className="stat">React, Redux, Node.js</p>
-        <p className="stat">Material-UI, Chart.js, Fuse.js, Nodemailer</p>
+        <p className="stat">React, Redux</p>
+        <p className="stat">Ant Design</p>
         <p className="stat-center">
           <a
-            href="https://github.com/s-munro/easyscore"
+            href="https://github.com/s-munro/vr-funding-app"
             className="stat-link animated-underline-3 underline-base"
           >
             Github
           </a>
           <span className="secondary"> | </span>
           <a
-            href="https://the-easy-score.herokuapp.com/"
+            href="https://vr-funding-app-qkmvkhqyf.vercel.app/login"
             className="stat-link animated-underline-3 underline-base"
           >
             Demo
