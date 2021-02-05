@@ -8,12 +8,16 @@ const Nav = () => {
       <div className="col-7">
         <div>
           <li className="nav-link col-12 home-link">
-            <span className="secondary">:</span>Sam
+            <a className="nav-a pointer" href="/">
+              <span className="secondary">:</span>Sam
+            </a>
           </li>
         </div>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
-        <li className="nav-link secondary-link">Projects</li>
+        <a className="nav-a pointer" href="/projects">
+          <li className="nav-link secondary-link">Projects</li>
+        </a>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
         <li className="nav-link secondary-link">Resume</li>
@@ -26,7 +30,9 @@ const Nav = () => {
         <li className="nav-link secondary-link">Linkedin</li>
       </div>
       <div data-aos="fade-up" data-aos-delay="1300" className="col-1">
-        <li className="nav-link secondary-link tertiary">Contact</li>
+        <a className="nav-a pointer" href="/contact">
+          <li className="nav-link secondary-link tertiary">Contact</li>
+        </a>
       </div>
     </nav>
   );
