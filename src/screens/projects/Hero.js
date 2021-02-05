@@ -65,9 +65,21 @@ const Hero = () => {
       </div>
       <div className="col-6 d-flex justify-content-center align-items-center">
         <ul>
-          <li className="big-list">The Easy Score</li>
-          <li className="big-list">VR-Funder</li>
-          <li className="big-list">707 Hair Studios</li>
+          <li className="big-list">
+            <a href="#" className="project-a">
+              The Easy Score
+            </a>
+          </li>
+          <li className="big-list">
+            <a href="#" className="project-a">
+              VR Funder
+            </a>
+          </li>
+          <li className="big-list">
+            <a href="#" className="project-a">
+              707 Hair Studios
+            </a>
+          </li>
         </ul>
       </div>
     </div>
