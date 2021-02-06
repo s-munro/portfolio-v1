@@ -3,11 +3,8 @@ import gif from "../../assets/vr-funder-demo.gif";
 
 const VRFunderSection = () => {
   return (
-    <div className="row w-100 bottom-margin-twenty">
-      <div
-        id="easy-score"
-        className="col-12 d-flex flex-column align-items-center justify-content-center mb-5"
-      >
+    <div className="row w-100 bottom-margin-twenty" id="vr-funder">
+      <div className="col-12 d-flex flex-column align-items-center justify-content-center mb-5">
         <h2
           className="project-heading"
           data-aos="fade-right"
