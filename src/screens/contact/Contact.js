@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import Map from "./Map.jsx";
 import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
 import "./Contact.css";
 
 const Contact = () => {
@@ -27,7 +28,7 @@ const Contact = () => {
               </span>
               <span
                 data-aos="fade-up"
-                data-aos-delay="125"
+                data-aos-delay="225"
                 className="hover-up header"
               >
                 n
@@ -41,21 +42,21 @@ const Contact = () => {
               </span>
               <span
                 data-aos="fade-up"
-                data-aos-delay="300"
+                data-aos-delay="175"
                 className="hover-up header"
               >
                 a
               </span>
               <span
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="250"
                 className="hover-up header"
               >
                 c
               </span>
               <span
                 data-aos="fade-up"
-                data-aos-delay="350"
+                data-aos-delay="125"
                 className="hover-up header"
               >
                 t
@@ -65,16 +66,20 @@ const Contact = () => {
           <div className="row w-100">
             <div className="col-12 d-flex flex-column">
               <form className="d-flex flex-column">
-                <TextField id="standard-basic" label="Name" />
-                <TextField id="standard-basic" label="Email" />
-                <TextField id="standard-basic" label="Subject" />
+                <TextField m={3} id="standard-basic" label="Name" />
+                <TextField m={3} id="standard-basic" label="Email" />
+                <TextField m={3} id="standard-basic" label="Subject" />
                 <TextField
+                  m={3}
                   id="outlined-multiline-static"
                   label="Message"
                   multiline
                   rows={4}
-                  variant="filled"
+                  // variant="filled"
                 />
+                <Button href="#text-buttons" color="primary">
+                  Submit
+                </Button>
               </form>
             </div>
           </div>
