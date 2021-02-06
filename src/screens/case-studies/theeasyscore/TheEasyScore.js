@@ -159,7 +159,12 @@ const TheEasyScore = () => {
           </div>
           <div className="col-xl-4 col-md-4 col-4  d-flex justify-content-center align-items-center">
             {/* Mobile Home Page */}
-            <img width="150px" src={oldTesHomeMobile} className="box-shadow" />
+            <img
+              width="150px"
+              src={oldTesHomeMobile}
+              alt="old easyscore mobile home page design"
+              className="box-shadow"
+            />
           </div>
           <div className="col-xl-4 col-md-4 col-4 d-flex justify-content-center align-items-center">
             {/* Mobile Search Page */}
@@ -167,11 +172,17 @@ const TheEasyScore = () => {
               width="150px"
               src={oldTesSearchMobile}
               className="box-shadow"
+              alt="old easyscore search screen on mobile"
             />
           </div>
           <div className="col-xl-4 col-md-4 col-4 d-flex justify-content-center align-items-center">
             {/* Mobile Search Page */}
-            <img width="150px" src={oldTesAboutMobile} className="box-shadow" />
+            <img
+              width="150px"
+              src={oldTesAboutMobile}
+              className="box-shadow"
+              alt="old easyscore about page on mobile"
+            />
           </div>
         </div>
         <div className="row w-100 d-flex justify-content-center pt-5">
@@ -232,6 +243,7 @@ const TheEasyScore = () => {
                   src={homePageScreenshot}
                   width="500px"
                   className="box-shadow"
+                  alt="easyscore home page screenshot"
                 />
               </div>
             </div>
@@ -268,7 +280,12 @@ const TheEasyScore = () => {
                 </p>
               </div>
               <div className="col-6 d-flex justify-content-center align-items-center">
-                <img src={pagesGif} width="500px" className="box-shadow" />
+                <img
+                  src={pagesGif}
+                  width="500px"
+                  className="box-shadow"
+                  alt="easy score changing pages demo"
+                />
               </div>
             </div>
             <div className="row w-100 pb-5">
@@ -297,6 +314,7 @@ const TheEasyScore = () => {
                   src={coursePageHeader}
                   width="500px"
                   className="box-shadow"
+                  alt="easy score course page header section"
                 />
               </div>
             </div>
@@ -317,7 +335,11 @@ const TheEasyScore = () => {
               </div>
               <div className="col-12 d-flex justify-content-center align-items-center ">
                 <div className="gif">
-                  <img width="600px" src={overviewgif} alt="easyscore gif" />
+                  <img
+                    width="600px"
+                    src={overviewgif}
+                    alt="easy score general usage demo gif"
+                  />
                 </div>
               </div>
             </div>
