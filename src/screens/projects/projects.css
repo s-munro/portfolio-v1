@@ -173,3 +173,15 @@
   text-decoration: none;
   color: var(--primary-color);
 }
+
+.contact-cta-container {
+  background-color: var(--primary-color);
+  color: white;
+  min-height: 50vh;
+  box-shadow: 0px -3px 20px 0px #00000010;
+}
+h2.white-text {
+  color: white;
+  font-size: 54px;
+  font-weight: 600;
+}

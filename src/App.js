@@ -12,13 +12,15 @@ AOS.init();
 
 const App = () => {
   return (
-    <div className="container">
-      <Nav />
+    <>
+      <div className="container">
+        <Nav />
+      </div>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/projects" component={Projects} />
       </Switch>
-    </div>
+    </>
   );
 };
 
