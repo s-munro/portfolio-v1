@@ -12,5 +12,7 @@ Readme to be updated soon.
   - [x] bootstrap
   - [] mediaqueries -- padding on responsiveness
 - [x] marker on contact map
-- [] bootstrap on homepage
+- [] home page responsiveness
+  - [x] bootstrap
+  - [] media queries
 - [] email form handler

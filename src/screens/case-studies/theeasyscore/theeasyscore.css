@@ -1,0 +1,18 @@
+.project-hero-container {
+  min-height: 80vh;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+.project-section-container {
+  min-height: 60vh;
+  margin: 5% 0;
+}
+.case-header {
+  color: var(--primary-color);
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 300;
+}
+.box-shadow {
+  box-shadow: 0px 3px 20px 0px #00000010;
+}
