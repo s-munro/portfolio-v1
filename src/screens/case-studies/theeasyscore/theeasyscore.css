@@ -1,0 +1,39 @@
+.project-hero-container {
+  min-height: 80vh;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+.project-section-container {
+  min-height: 60vh;
+  margin: 5% 0;
+}
+.case-header {
+  color: var(--primary-color);
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 300;
+}
+.tes-img-1 {
+  background-image: url("./assets/course-page-far.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 400px;
+}
+.tes-img-2 {
+  background-image: url("./assets/easy-score-home.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 400px;
+}
+.tes-img-3 {
+  background-image: url("./assets/search-page-far.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 400px;
+}
+.box-shadow {
+  box-shadow: 0px 3px 20px 0px #00000010;
+}

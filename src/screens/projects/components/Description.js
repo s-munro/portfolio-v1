@@ -39,7 +39,6 @@ const Description = (props) => {
           {live ? "Live Link" : "Demo"}
         </a>
       </p>
-      {/* <br /> */}
       {showCaseStudy ? (
         <p className="stat-title">
           <a href={caseStudyUrl} className="link-primary-color">
@@ -50,11 +49,7 @@ const Description = (props) => {
           </a>
         </p>
       ) : (
-        <p className="stat-title faded">
-          {/* <a href={caseStudyUrl} className="link-primary-color"> */}
-          Case study unavailable.
-          {/* </a> */}
-        </p>
+        <p className="stat-title faded">Case study unavailable.</p>
       )}
     </div>
   );

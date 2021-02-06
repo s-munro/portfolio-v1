@@ -13,7 +13,7 @@ const Home = () => {
     <div className="row w-100">
       <main className="col-12 w-100 d-flex align-items-center justify-content-center">
         <div className="row w-100">
-          <div className="col-6 hero-border-right d-flex justify-content-center align-items-center">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 hero-border-right d-flex justify-content-center align-items-center">
             <div className="row w-100">
               <div className="col-12 d-flex justify-content-center boldest">
                 <span
@@ -73,8 +73,6 @@ const Home = () => {
                 >
                   o
                 </span>
-                {/* Sam Munro */}
-                {/* </h1> */}
               </div>
               <div
                 data-aos="fade-up"
@@ -85,7 +83,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 main-right-side">
+          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12  main-right-side">
             <div
               data-aos="fade-up"
               data-aos-delay="1300"
