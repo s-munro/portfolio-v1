@@ -27,9 +27,6 @@ const TheEasyScore = () => {
   return (
     <>
       <div className="container">
-        {/* <div className="row w-100 background-img coursepageheader-img"> */}
-        {/* <img src={coursePageHeader} /> */}
-        {/* </div> */}
         <div className="row w-100">
           <div className="col-12 d-flex flex-column justify-content-center align-items-end project-hero-container ">
             <div className="col-12 d-flex justify-content-center">
