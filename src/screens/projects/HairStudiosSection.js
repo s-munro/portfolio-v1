@@ -30,7 +30,10 @@ const HairStudiosSection = () => {
         </p>
         <br />
         <h5>
-          <span className="secondary animated-underline-2 underline-base pseudo-link">
+          <span
+            className="secondary animated-underline-2 underline-base pseudo-link"
+            // id="trigger-up"
+          >
             View
           </span>{" "}
           Full Case Study

@@ -177,11 +177,38 @@
 .contact-cta-container {
   background-color: var(--primary-color);
   color: white;
-  min-height: 50vh;
+  min-height: 35vh;
   box-shadow: 0px -3px 20px 0px #00000010;
 }
+.white-text {
+  color: white !important;
+}
+h2.white-text span.white-text {
+  color: white !important;
+}
 h2.white-text {
-  color: white;
   font-size: 54px;
   font-weight: 600;
+}
+.white-link {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: white;
+}
+.white-link:hover {
+  /* color: var(--tertiary-color); */
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.white-icon {
+  color: white !important;
+  z-index: 1000;
+}
+.white-bg {
+  background-color: pink;
+}
+h5.white-text {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
 }
