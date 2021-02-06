@@ -51,6 +51,11 @@
 .project-a {
   position: relative;
 }
+.link-primary-color,
+.link-primary-color:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 
 .animated-underline:before {
   content: "";
