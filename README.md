@@ -8,7 +8,9 @@ Readme to be updated soon.
 
 - [] media queries for project gallery
 - [] case study pages
-- [] contact responsiveness
-- [] marker on contact map
+- [inp] contact responsiveness
+  - [x] bootstrap
+  - [] mediaqueries -- padding on responsiveness
+- [x] marker on contact map
 - [] bootstrap on homepage
 - [] email form handler

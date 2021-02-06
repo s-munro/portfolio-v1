@@ -34,7 +34,7 @@ const Contact = () => {
 
   const classes = useStyles();
   return (
-    <div className="container mt-3 pt-3">
+    <div className="container mt-3 pt-3 pb-3">
       <div className="row w-100">
         <div className="col-xl-6 col-lg-6 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
           <div className="row w-100">
