@@ -230,7 +230,7 @@ const TheEasyScore = () => {
               <div className="col-6 d-flex justify-content-center align-items-center">
                 <img
                   src={homePageScreenshot}
-                  width="400px"
+                  width="500px"
                   className="box-shadow"
                 />
               </div>
@@ -300,7 +300,7 @@ const TheEasyScore = () => {
                 />
               </div>
             </div>
-            <div className="row w-100 mt-5 pb-5 mb-5 d-flex flex-column justify-content-center align-items-center">
+            <div className="row w-100 mt-3 pb-5 mb-5 d-flex flex-column justify-content-center align-items-center">
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <h2>
                   <a
