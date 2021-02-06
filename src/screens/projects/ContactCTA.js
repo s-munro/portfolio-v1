@@ -68,7 +68,7 @@ const ContactCTA = () => {
             t
           </span>
         </h2>
-        <p className="stat-center">
+        <p className="stat-center m-0">
           <a
             href="https://www.linkedin.com/in/sjm-munro/"
             className="animated-underline-3 underline-base white-link"
@@ -95,8 +95,8 @@ const ContactCTA = () => {
       <div className="col-6 d-flex flex-column justify-content-center align-items-center">
         <br />
         <h5
-          className="white-text"
-          data-aos="fade-up"
+          className="white-text m-0"
+          data-aos="fade-left"
           data-aos-delay="100"
           data-aos-anchor-placement="bottom-bottom"
         >

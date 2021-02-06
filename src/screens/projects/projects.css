@@ -178,7 +178,7 @@
 .contact-cta-container {
   background-color: var(--primary-color);
   color: white;
-  min-height: 35vh;
+  min-height: 25vh;
   box-shadow: 0px -3px 20px 0px #00000010;
 }
 .white-text {
@@ -189,7 +189,7 @@ h2.white-text span.white-text {
 }
 h2.white-text {
   font-size: 54px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .white-link {
   transition: all 0.2s ease-in-out;
