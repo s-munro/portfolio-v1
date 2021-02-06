@@ -230,7 +230,7 @@ const TheEasyScore = () => {
               <div className="col-6 d-flex justify-content-center align-items-center">
                 <img
                   src={homePageScreenshot}
-                  width="400px"
+                  width="500px"
                   className="box-shadow"
                 />
               </div>
