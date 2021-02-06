@@ -7,7 +7,7 @@ const ContactCTA = () => {
   return (
     <div className="row w-100 fluid m-0 contact-cta-container d-flex justify-content-center">
       <div
-        className="col-6 d-flex flex-column justify-content-center align-items-center white-text"
+        className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center white-text"
         id="trigger-up"
       >
         <h2 className="white-text">
@@ -68,7 +68,7 @@ const ContactCTA = () => {
             t
           </span>
         </h2>
-        <p className="stat-center">
+        <p className="stat-center m-0">
           <a
             href="https://www.linkedin.com/in/sjm-munro/"
             className="animated-underline-3 underline-base white-link"
@@ -92,15 +92,15 @@ const ContactCTA = () => {
           </a>
         </p>
       </div>
-      <div className="col-6 d-flex flex-column justify-content-center align-items-center">
+      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
         <br />
         <h5
-          className="white-text"
-          data-aos="fade-up"
+          className="white-text m-0"
+          data-aos="fade-left"
           data-aos-delay="100"
           data-aos-anchor-placement="bottom-bottom"
         >
-          <span className="secondary">|</span> Sam Munro
+          <span className="secondary">|</span> Sam Munro, 2021.
         </h5>
       </div>
     </div>

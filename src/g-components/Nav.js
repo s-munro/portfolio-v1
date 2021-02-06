@@ -5,7 +5,7 @@ import "./index.css";
 const Nav = () => {
   return (
     <nav className="row w-100 d-flex align-items-end pt-4">
-      <div className="col-7">
+      <div className="col-xl-7 col-lg-7 col-md-2 col-sm-2 col-2">
         <div>
           <li className="nav-link col-12 home-link">
             <a className="nav-a pointer" href="/">
@@ -14,12 +14,20 @@ const Nav = () => {
           </li>
         </div>
       </div>
-      <div data-aos="fade-up" data-aos-delay="0" className="col-1">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="0"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"
+      >
         <a className="nav-a pointer" href="/projects">
           <li className="nav-link secondary-link">Projects</li>
         </a>
       </div>
-      <div data-aos="fade-up" data-aos-delay="0" className="col-1">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="0"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"
+      >
         <li className="nav-link secondary-link">
           <a
             className="nav-a pointer"
@@ -29,7 +37,11 @@ const Nav = () => {
           </a>
         </li>
       </div>
-      <div data-aos="fade-up" data-aos-delay="0" className="col-1">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="0"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"
+      >
         {/* <AiFillGithub /> */}
         <li className="nav-link secondary-link">
           <a className="nav-a pointer" href="https://github.com/s-munro">
@@ -37,7 +49,11 @@ const Nav = () => {
           </a>
         </li>
       </div>
-      <div data-aos="fade-up" data-aos-delay="0" className="col-1">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="0"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"
+      >
         <li className="nav-link secondary-link">
           <a
             className="nav-a pointer"
@@ -47,7 +63,11 @@ const Nav = () => {
           </a>
         </li>
       </div>
-      <div data-aos="fade-up" data-aos-delay="1300" className="col-1">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="1300"
+        className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2"
+      >
         <a className="nav-a pointer" href="/contact">
           <li className="nav-link secondary-link tertiary">Contact</li>
         </a>
