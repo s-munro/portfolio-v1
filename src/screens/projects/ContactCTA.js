@@ -78,7 +78,7 @@ const ContactCTA = () => {
           </a>
           <span className="secondary"> | </span>
           <a
-            href="https://the-easy-score.herokuapp.com/"
+            href="https://docs.google.com/document/d/1zyPr4E8VN1H1lpAXo6mSC4rj2HdxXmJIpCaCXKx6LH8/edit?usp=sharing"
             className="animated-underline-3 underline-base white-link"
           >
             Resume
