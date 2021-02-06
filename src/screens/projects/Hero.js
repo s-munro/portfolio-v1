@@ -77,13 +77,13 @@ const Hero = () => {
       <div className="col-6 d-flex justify-content-center align-items-center">
         <ul>
           <li className="big-list">
-            <a href="#easy-score" className="project-a">
+            <a href="#easy-score" className="project-a animated-underline">
               The <span className="secondary-projectpage">Easy</span> Scor
               <span className="secondary">e</span>
             </a>
           </li>
           <li className="big-list">
-            <a href="#vr-funder" className="project-a">
+            <a href="#vr-funder" className="project-a animated-underline">
               VR{" "}
               <span className="secondary-projectpage">
                 Fund<span className="secondary">e</span>r
@@ -91,7 +91,7 @@ const Hero = () => {
             </a>
           </li>
           <li className="big-list">
-            <a href="#studios" className="project-a">
+            <a href="#studios" className="project-a animated-underline">
               707 Hair <span className="secondary-projectpage">Studios</span>
             </a>
           </li>
