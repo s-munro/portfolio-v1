@@ -300,7 +300,7 @@ const TheEasyScore = () => {
                 />
               </div>
             </div>
-            <div className="row w-100 mt-5 pb-5 mb-5 d-flex flex-column justify-content-center align-items-center">
+            <div className="row w-100 mt-3 pb-5 mb-5 d-flex flex-column justify-content-center align-items-center">
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <h2>
                   <a
