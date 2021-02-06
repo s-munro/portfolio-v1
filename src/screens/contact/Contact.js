@@ -73,7 +73,7 @@ const Contact = () => {
                   label="Message"
                   multiline
                   rows={4}
-                  variant="outlined"
+                  variant="filled"
                 />
               </form>
             </div>

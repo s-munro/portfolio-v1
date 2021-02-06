@@ -4,3 +4,6 @@
 .input {
   margin-top: 2%;
 }
+input {
+  color: var(--primary-color) !important;
+}

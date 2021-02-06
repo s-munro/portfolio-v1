@@ -10,6 +10,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
+    "fontsource-poppins": "^4.0.0",
     "leaflet": "^1.7.1",
     "mapbox-gl": "^2.1.0",
     "mapbox-gl-leaflet": "0.0.14",
