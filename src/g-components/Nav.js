@@ -20,7 +20,14 @@ const Nav = () => {
         </a>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
-        <li className="nav-link secondary-link">Resume</li>
+        <li className="nav-link secondary-link">
+          <a
+            className="nav-a pointer"
+            href="https://docs.google.com/document/d/1zyPr4E8VN1H1lpAXo6mSC4rj2HdxXmJIpCaCXKx6LH8/edit?usp=sharing"
+          >
+            Resume
+          </a>
+        </li>
       </div>
       <div data-aos="fade-up" data-aos-delay="0" className="col-1">
         {/* <AiFillGithub /> */}
