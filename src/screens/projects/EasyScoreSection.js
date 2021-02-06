@@ -30,7 +30,7 @@ const EasyScoreSection = () => {
         caseStudyUrl={"/case-studies/the-easy-score"}
         showCaseStudy={true}
       />
-      <div className="col-8 d-flex align-items-center justify-content-center">
+      <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
         <div className="gif">
           <img width="600px" src={gif} alt="easyscore gif" />
         </div>

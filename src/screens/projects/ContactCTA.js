@@ -7,7 +7,7 @@ const ContactCTA = () => {
   return (
     <div className="row w-100 fluid m-0 contact-cta-container d-flex justify-content-center">
       <div
-        className="col-6 d-flex flex-column justify-content-center align-items-center white-text"
+        className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center white-text"
         id="trigger-up"
       >
         <h2 className="white-text">
@@ -92,7 +92,7 @@ const ContactCTA = () => {
           </a>
         </p>
       </div>
-      <div className="col-6 d-flex flex-column justify-content-center align-items-center">
+      <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
         <br />
         <h5
           className="white-text m-0"
