@@ -1,9 +1,9 @@
-.contact-container {
-  /* min-height: 80vh; */
-}
 .input {
   margin-top: 2%;
 }
 input {
   color: var(--primary-color) !important;
+}
+.MuiInput-formControl {
+  margin-top: 2%;
 }

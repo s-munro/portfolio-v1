@@ -1,13 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import Map from "./Map.jsx";
+import { makeStyles } from "@material-ui/core/styles";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
+import Icon from "@material-ui/core/Icon";
 import "./Contact.css";
 
+const initialFormValues = {
+  name: "",
+  email: "",
+  subject: "",
+  message: "",
+};
+
 const Contact = () => {
+  const [formValues, setFormValues] = useState(initialFormValues);
+  const useStyles = makeStyles((theme) => ({
+    button: {
+      margin: theme.spacing(1),
+    },
+  }));
+
+  const handleChange = (e, value) => {
+    setFormValues({ ...formValues, [e.target.name]: e.target.value });
+    console.log(formValues);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formValues);
+    setFormValues(initialFormValues);
+  };
+
+  const classes = useStyles();
   return (
-    <div className="container contact-container pt-3">
+    <div className="container mt-3 pt-3">
       <div className="row w-100">
         <div className="col-xl-6 col-lg-6 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
           <div className="row w-100">
@@ -65,20 +92,49 @@ const Contact = () => {
           </div>
           <div className="row w-100">
             <div className="col-12 d-flex flex-column">
-              <form className="d-flex flex-column">
-                <TextField m={3} id="standard-basic" label="Name" />
-                <TextField m={3} id="standard-basic" label="Email" />
-                <TextField m={3} id="standard-basic" label="Subject" />
+              <form className="d-flex flex-column" onSubmit={handleSubmit}>
                 <TextField
                   m={3}
-                  id="outlined-multiline-static"
+                  id="name"
+                  name="name"
+                  label="Name"
+                  onChange={handleChange}
+                  value={formValues.name}
+                />
+                <TextField
+                  m={3}
+                  id="email"
+                  name="email"
+                  label="Email"
+                  onChange={handleChange}
+                  value={formValues.email}
+                />
+                <TextField
+                  m={3}
+                  id="subject"
+                  name="subject"
+                  label="Subject"
+                  onChange={handleChange}
+                  value={formValues.subject}
+                />
+                <TextField
+                  m={3}
+                  id="message"
+                  name="message"
                   label="Message"
                   multiline
                   rows={4}
-                  // variant="filled"
+                  onChange={handleChange}
+                  value={formValues.message}
                 />
-                <Button href="#text-buttons" color="primary">
-                  Submit
+                <Button
+                  // variant="contained"
+                  color="primary"
+                  className={classes.button}
+                  endIcon={<Icon>send</Icon>}
+                  type="submit"
+                >
+                  Send
                 </Button>
               </form>
             </div>
