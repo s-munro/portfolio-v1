@@ -15,10 +15,10 @@ const Description = (props) => {
   return (
     <div className="col-4 d-flex flex-column align-items-start justify-content-center">
       <p className="stat-title">{role}</p>
-      <p className="stat">{duties}</p>
-      <p className="stat">{stat1}</p>
+      <p className="stat mb-2">{duties}</p>
+      <p className="stat mb-2">{stat1}</p>
       <p className="stat">{stat2}</p>
-      <p className="stat-center">
+      <p className="stat-center mb-0">
         {githubLink ? (
           <>
             <a
@@ -41,14 +41,14 @@ const Description = (props) => {
       </p>
       {/* <br /> */}
       {showCaseStudy ? (
-        <h5>
+        <p className="stat-title">
           <a href={caseStudyUrl} className="link-primary-color">
             <span className="secondary animated-underline-2 underline-base pseudo-link">
               View
             </span>{" "}
             Full Case Study
           </a>
-        </h5>
+        </p>
       ) : (
         <h5>
           {/* <a href={caseStudyUrl} className="link-primary-color"> */}

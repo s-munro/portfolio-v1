@@ -100,7 +100,7 @@ const ContactCTA = () => {
           data-aos-delay="100"
           data-aos-anchor-placement="bottom-bottom"
         >
-          <span className="secondary">|</span> Sam Munro
+          <span className="secondary">|</span> Sam Munro, 2021.
         </h5>
       </div>
     </div>
