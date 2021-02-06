@@ -12,58 +12,58 @@ const ContactCTA = () => {
       >
         <h2 className="white-text">
           <span
-            data-aos="fade-up"
-            data-aos-delay="25"
+            // data-aos="fade-up"
+            // data-aos-delay="25"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             C
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="100"
+            // data-aos="fade-up"
+            // data-aos-delay="100"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             o
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="125"
+            // data-aos="fade-up"
+            // data-aos-delay="125"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             n
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="50"
+            // data-aos="fade-up"
+            // data-aos-delay="50"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             t
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-delay="150"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             a
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="20"
+            // data-aos="fade-up"
+            // data-aos-delay="20"
             className="white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             c
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-delay="150"
             className="hover-up white-text"
-            data-aos-anchor-placement="center-bottom"
+            // data-aos-anchor-placement="center-bottom"
           >
             t
           </span>

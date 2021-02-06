@@ -8,8 +8,18 @@ const EasyScoreSection = () => {
         id="easy-score"
         className="col-12 d-flex flex-column align-items-center justify-content-center mb-5"
       >
-        <h2 className="project-heading">The Easy Score</h2>
-        <h6>An advanced course-planning resource for college students</h6>
+        <h2
+          className="project-heading"
+          data-aos="fade-right"
+          data-aos-delay="0"
+          data-aos-duration="500"
+          // data-aos-anchor-placement="center-center"
+        >
+          The Easy Score
+        </h2>
+        <h6 data-aos="fade-right" data-aos-delay="150" data-aos-duration="500">
+          An advanced course-planning resource for college students
+        </h6>
       </div>
       <div className="col-4 d-flex flex-column align-items-start justify-content-center">
         <p className="stat-title">Lead Developer</p>

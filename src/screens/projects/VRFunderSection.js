@@ -8,8 +8,16 @@ const VRFunderSection = () => {
         id="easy-score"
         className="col-12 d-flex flex-column align-items-center justify-content-center mb-5"
       >
-        <h2 className="project-heading">VR-Funder</h2>
-        <h6>
+        <h2
+          className="project-heading"
+          data-aos="fade-right"
+          data-aos-delay="0"
+          data-aos-duration="500"
+          // data-aos-anchor-placement="center-center"
+        >
+          VR-Funder
+        </h2>
+        <h6 data-aos="fade-right" data-aos-delay="150" data-aos-duration="500">
           A VR Funding platform for fundraisers to list startups and funders to
           browse/fund
         </h6>
