@@ -50,11 +50,11 @@ const Description = (props) => {
           </a>
         </p>
       ) : (
-        <h5>
+        <p className="stat-title faded">
           {/* <a href={caseStudyUrl} className="link-primary-color"> */}
           Case study unavailable.
           {/* </a> */}
-        </h5>
+        </p>
       )}
     </div>
   );

@@ -166,6 +166,9 @@
 .stat-title {
   font-weight: 500;
 }
+.stat-title.faded {
+  color: rgb(142, 142, 142);
+}
 .stat.center {
   text-align: center;
 }
