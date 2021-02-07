@@ -320,7 +320,7 @@ const TheEasyScore = () => {
             </div>
             <div className="row w-100 mt-3 pb-5 mb-5 d-flex flex-column justify-content-center align-items-center">
               <div className="col-12 d-flex justify-content-center align-items-center">
-                <h2>
+                <h4>
                   <a
                     href={"https://the-easy-score.herokuapp.com/"}
                     className="link-primary-color"
@@ -331,7 +331,7 @@ const TheEasyScore = () => {
                     </span>
                     <BsLink45Deg />
                   </a>
-                </h2>
+                </h4>
               </div>
               <div className="col-12 d-flex justify-content-center align-items-center ">
                 <div className="gif">
