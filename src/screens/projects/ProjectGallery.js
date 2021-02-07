@@ -1,14 +1,18 @@
-import React from "react";
-import EasyScoreSection from "./EasyScoreSection";
-import VRFunderSection from "./VRFunderSection";
-import HairStudiosSection from "./HairStudiosSection";
+import React, { Suspense, lazy } from "react";
+import Loading from "../../g-components/Loading";
+
+const EasyScoreSection = lazy(() => import("./EasyScoreSection.js"));
+const VRFunderSection = lazy(() => import("./VRFunderSection"));
+const HairStudiosSection = lazy(() => import("./HairStudiosSection"));
 
 const ProjectGallery = () => {
   return (
     <div className="col-12">
-      <EasyScoreSection />
-      <VRFunderSection />
-      <HairStudiosSection />
+      <Suspense fallback={<Loading />}>
+        <EasyScoreSection />
+        <VRFunderSection />
+        <HairStudiosSection />
+      </Suspense>
     </div>
   );
 };
