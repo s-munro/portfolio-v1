@@ -1,4 +1,5 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
+import Loading from "../../g-components/Loading";
 import { AiFillCaretDown } from "react-icons/ai";
 import "./projects.css";
 
@@ -10,68 +11,15 @@ const Hero = () => {
     element.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  const ProjectsHeader = lazy(() => import("./components/ProjectsHeader"));
+
   return (
     <div className="row d-flex w-100">
       <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
         <div className="row w-100">
-          <div className="col-12 d-flex justify-content-center align-items-center">
-            <span
-              data-aos="fade-up"
-              data-aos-delay="25"
-              className="hover-up header"
-            >
-              P
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="100"
-              className="hover-up header"
-            >
-              r
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="125"
-              className="hover-up header"
-            >
-              o
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="150"
-              className="hover-up header"
-            >
-              j
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="300"
-              className="hover-up header"
-            >
-              e
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="400"
-              className="hover-up header"
-            >
-              c
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="350"
-              className="hover-up header"
-            >
-              t
-            </span>
-            <span
-              data-aos="fade-up"
-              data-aos-delay="200"
-              className="hover-up header"
-            >
-              s
-            </span>
-          </div>
+          <Suspense fallback={<Loading />}>
+            <ProjectsHeader />
+          </Suspense>
         </div>
         <div className="row w-100">
           <div className="col-12 d-flex justify-content-center">

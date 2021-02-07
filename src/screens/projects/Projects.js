@@ -1,11 +1,14 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import Hero from "./Hero";
-import ProjectGallery from "./ProjectGallery";
+// import ProjectGallery from "./ProjectGallery";
+import Loading from "../../g-components/Loading";
 import AOS from "aos";
 import ContactCTA from "./ContactCTA";
 AOS.init({
   anchorPlacement: "bottom-bottom",
 });
+
+const ProjectGallery = lazy(() => import("./ProjectGallery.js"));
 
 const Projects = () => {
   return (
@@ -15,7 +18,9 @@ const Projects = () => {
           <div className="col-12 hero-container d-flex align-items-center hero-container">
             <Hero />
           </div>
-          <ProjectGallery />
+          <Suspense fallback={<Loading />}>
+            <ProjectGallery />
+          </Suspense>
         </div>
       </div>
       <div className="container-fluid d-flex flex-column align-items-center justify-content-center pr-0 pl-0">
