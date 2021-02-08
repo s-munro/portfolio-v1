@@ -1,5 +1,28 @@
 @import url("../index.css");
 
+button {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* Use whatever font-family you want */
+  font-size: 1rem;
+  line-height: 1;
+  background: transparent;
+  -webkit-appearance: none;
+}
+
+@media only screen and (min-width: 575px) {
+  div.d-flex.hamburger-button {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .non-hamburger {
+    display: none;
+  }
+}
+
 nav {
   height: 10vh;
   font-size: 14px;
