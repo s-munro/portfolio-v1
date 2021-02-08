@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import Loading from "../../g-components/Loading";
 import { AiFillCaretDown } from "react-icons/ai";
+import ProjectsHeader from "./components/ProjectsHeader";
 import "./projects.css";
 
 const Hero = () => {
@@ -11,15 +12,13 @@ const Hero = () => {
     element.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
-  const ProjectsHeader = lazy(() => import("./components/ProjectsHeader"));
-
   return (
     <div className="row d-flex w-100">
       <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 d-flex flex-column justify-content-center align-items-center">
         <div className="row w-100">
-          <Suspense fallback={<Loading />}>
-            <ProjectsHeader />
-          </Suspense>
+          {/* <Suspense fallback={<Loading />}> */}
+          <ProjectsHeader />
+          {/* </Suspense> */}
         </div>
         <div className="row w-100">
           <div className="col-12 d-flex justify-content-center">

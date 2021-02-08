@@ -7,7 +7,7 @@ import "./index.css";
 const Nav = () => {
   return (
     <nav className="row w-100 d-flex align-items-end pt-4">
-      <div className="col-xl-7 col-lg-7 col-md-2 col-sm-10 col-10 d-flex align-items-center">
+      <div className="col-xl-7 col-lg-7 col-md-2 col-sm-2 col-10 d-flex align-items-center">
         <div>
           <li className="nav-link col-12 home-link">
             <a className="nav-a pointer" href="/">
