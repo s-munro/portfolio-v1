@@ -13,7 +13,7 @@ const ProjectGallery = lazy(() => import("./ProjectGallery.js"));
 const Projects = () => {
   return (
     <>
-      <div className="container">
+      <div className="container d-flex flex-column align-items-center">
         <div className="row w-100 d-flex flex-column align-items-center justify-content-center projects-container mt-5">
           <div className="col-12 hero-container d-flex align-items-center hero-container">
             <Hero />

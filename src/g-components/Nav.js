@@ -8,13 +8,11 @@ const Nav = () => {
   return (
     <nav className="row w-100 d-flex align-items-end pt-4">
       <div className="col-xl-7 col-lg-7 col-md-2 col-sm-2 col-10 d-flex logo-flex align-items-center">
-        {/* <div className="col-12 p-0"> */}
         <li className="nav-link col-12 pr-0 pl-0 home-link">
           <a className="nav-a pointer" href="/">
             <span className="secondary">:</span>Sam
           </a>
         </li>
-        {/* </div> */}
       </div>
       <div
         className="col-2 d-flex justify-content-end align-items-center hamburger-button"
