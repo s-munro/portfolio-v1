@@ -1,10 +1,10 @@
 import React from "react";
-import gif from "../../assets/easyscore-giphy-demo.gif";
-import Description from "./components/Description";
+import Description from "./Description";
 
-const EasyScoreSection = () => {
+const GallerySection = ({ sectionData }) => {
+  const { sectionId, title, headline, gif, descriptionData } = sectionData;
   return (
-    <div className="row w-100 bottom-margin-twenty" id="easy-score">
+    <div className="row w-100 bottom-margin-twenty" id={sectionId}>
       <div className="col-12 d-flex flex-column align-items-center justify-content-center mb-5">
         <h2
           className="project-heading mobile-mid-centered"
@@ -13,7 +13,7 @@ const EasyScoreSection = () => {
           data-aos-duration="500"
           // data-aos-anchor-placement="center-center"
         >
-          The Easy Score
+          {title}
         </h2>
         <h6
           className="mobile-mid-centered"
@@ -21,19 +21,18 @@ const EasyScoreSection = () => {
           data-aos-delay="150"
           data-aos-duration="500"
         >
-          An advanced course-planning resource for college students
+          {headline}
         </h6>
       </div>
-
       <Description
-        role={"Lead Developer"}
-        duties={"Organized and implemented site design and development"}
-        stat1={"React, Redux, Node.js"}
-        stat2={"Material-UI, Chart.js, Fuse.js, Nodemailer"}
-        githubLink={"https://github.com/s-munro/easyscore"}
-        demoLink={"https://the-easy-score.herokuapp.com/"}
-        caseStudyUrl={"/case-studies/the-easy-score"}
-        showCaseStudy={true}
+        role={descriptionData.role}
+        duties={descriptionData.duties}
+        stat1={descriptionData.stat1}
+        stat2={descriptionData.stat2}
+        githubLink={descriptionData.githubLink}
+        demoLink={descriptionData.demoLink}
+        caseStudyUrl={descriptionData.caseStudyUrl}
+        showCaseStudy={descriptionData.showCaseStudy}
       />
       <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
         <div className="gif">
@@ -44,4 +43,4 @@ const EasyScoreSection = () => {
   );
 };
 
-export default EasyScoreSection;
+export default GallerySection;

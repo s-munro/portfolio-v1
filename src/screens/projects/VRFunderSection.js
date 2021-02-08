@@ -35,7 +35,12 @@ const VRFunderSection = () => {
 
       <div className="col-8 d-flex align-items-center justify-content-center">
         <div className="gif">
-          <img width="600px" src={gif} alt="easyscore gif" />
+          <img
+            width="600px"
+            className="gallery-gif"
+            src={gif}
+            alt="easyscore gif"
+          />
         </div>
       </div>
     </div>

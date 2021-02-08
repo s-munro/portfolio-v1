@@ -32,7 +32,12 @@ const HairStudiosSection = () => {
 
       <div className="col-8 d-flex align-items-center justify-content-center">
         <div className="gif">
-          <img width="600px" src={gif} alt="707 hair studios demo gif" />
+          <img
+            width="600px"
+            className="gallery-gif"
+            src={gif}
+            alt="707 hair studios demo gif"
+          />
         </div>
       </div>
     </div>

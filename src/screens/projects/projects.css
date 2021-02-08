@@ -27,6 +27,9 @@
   font-weight: 600;
   text-decoration: none;
 }
+.gallery-gif {
+  width: 600px;
+}
 
 @media only screen and (max-width: 1199px) {
   .big-list {
@@ -42,6 +45,10 @@
     margin-top: 150px;
     /* padding-bottom: 5%; */
   }
+  .mobile-mid-centered {
+    justify-content: center !important;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 767px) {
   .header {
@@ -53,12 +60,10 @@
   }
   .mid-margin-bottom-padding-top {
     margin-top: 100px;
-    /* padding-bottom: 5%; */
   }
-  /* .logo-flex { */
-  /* justify-content: flex-center; */
-  /* align-items: flex-end; */
-  /* } */
+  .gallery-gif {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
