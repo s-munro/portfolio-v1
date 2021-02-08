@@ -47,7 +47,14 @@
   }
   .mobile-mid-centered {
     justify-content: center !important;
-    text-align: center;
+    text-align: center !important;
+  }
+  div.mobile-mid-align-centered {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .mobile-mid-margin {
+    margin: 50px 0 100px 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -73,6 +80,11 @@
   }
   .big-list {
     font-size: 26px;
+  }
+}
+@media only screen and (max-width: 491px) {
+  .gallery-gif {
+    width: 300px;
   }
 }
 @media only screen and (max-width: 375px) {

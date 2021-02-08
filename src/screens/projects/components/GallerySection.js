@@ -34,7 +34,7 @@ const GallerySection = ({ sectionData }) => {
         caseStudyUrl={descriptionData.caseStudyUrl}
         showCaseStudy={descriptionData.showCaseStudy}
       />
-      <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
+      <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center mobile-mid-margin">
         <div className="gif">
           <img src={gif} className="gallery-gif" alt="easyscore gif" />
         </div>
