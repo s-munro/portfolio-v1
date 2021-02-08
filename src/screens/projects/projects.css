@@ -54,7 +54,7 @@
     text-align: center !important;
   }
   .mobile-mid-margin {
-    margin: 50px 0 100px 0;
+    margin: 50px 0 50px 0;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -165,7 +165,7 @@ ul {
 
 .bottom-margin-twenty {
   padding-top: 5%;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 .project-heading {
   font-size: 56px;

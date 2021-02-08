@@ -75,7 +75,10 @@ const Nav = () => {
         data-aos-delay="1300"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
-        <a className="nav-a pointer" href="/contact">
+        <a
+          className="nav-a pointer"
+          href='mailto:sjm.munro@gmail.com?subject="re:portfolio"'
+        >
           <li className="nav-link secondary-link d-flex justify-content-center align-items-center tertiary">
             Contact
           </li>
