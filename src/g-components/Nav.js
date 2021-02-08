@@ -1,6 +1,5 @@
 import React from "react";
 import { BiMenuAltRight } from "react-icons/bi";
-import Hidden from "@material-ui/core/Hidden";
 
 import "./index.css";
 
