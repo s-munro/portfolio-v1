@@ -23,7 +23,7 @@ import "./theeasyscore.css";
 const TheEasyScore = () => {
   return (
     <>
-      <div className="container">
+      <div className="container d-flex flex-column align-items-center">
         <TESHeader />
         <div
           className="row w-100 project-section-container justify-content-center align-items-center"
@@ -86,13 +86,15 @@ const TheEasyScore = () => {
           </div>
         </div>
         <div className="row w-100 d-flex justify-content-center pt-5">
-          <div className="col-xl-12 d-flex justify-content-center align-items-center mb-5">
+          <div className="col-xl-12 d-flex justify-content-center align-items-center  pt-5 mb-2">
             <h4>Strategy</h4>
           </div>
           <div className="col-12">
-            <div className="row w-100 pb-5">
-              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
-                <h6>Our Approach</h6>
+            <div className="row w-100 pb-5 d-flex align-items-center no-gutters">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center textblock">
+                <div className="d-flex justify-content-start">
+                  <h6>Our Approach</h6>
+                </div>
                 <p>
                   We tried to take a users' perspective when planning the site's
                   design and functionality. The purpose of the site was to be
@@ -106,7 +108,7 @@ const TheEasyScore = () => {
                   pages, technologies), and we ran with it.
                 </p>
               </div>
-              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center textblock pt-3 pb-5 mb-2">
                 <h6>Technologies/notable dependencies</h6>
                 <ul>
                   <li>React</li>
@@ -118,7 +120,7 @@ const TheEasyScore = () => {
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
                   <h6>Color Palette</h6>
                 </div>
@@ -137,7 +139,7 @@ const TheEasyScore = () => {
                   .
                 </p>
               </div>
-              <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center ">
                 <img
                   src={homePageScreenshot}
                   width="500px"
@@ -147,7 +149,7 @@ const TheEasyScore = () => {
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
                   <h6>Purpose/Pages/Screens</h6>
                 </div>
@@ -188,7 +190,7 @@ const TheEasyScore = () => {
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start textblock">
                 <div className="d-flex justify-content-start">
                   <h6>Navigating & Visualizing Data</h6>
                 </div>

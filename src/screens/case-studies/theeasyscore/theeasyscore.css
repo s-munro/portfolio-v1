@@ -44,6 +44,9 @@
   .gallery-img {
     margin: 50px 0;
   }
+  .gif {
+    margin-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 767px) {
   .primary-gif {
@@ -51,9 +54,6 @@
   }
   .oldTesMobile {
     margin: 0px 0 50px 0;
-  }
-  .gif {
-    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 576px) {
