@@ -10,7 +10,7 @@ const TESHeader = () => {
     event.preventDefault();
     console.log(event.currentTarget.name);
     let element = document.getElementById(event.currentTarget.name);
-    element.scrollIntoView({ behavior: "smooth", block: "start" });
+    element.scrollIntoView({ behavior: "smooth", block: "center" });
   };
   return (
     <div className="row w-100">

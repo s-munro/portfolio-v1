@@ -86,7 +86,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12  main-right-side">
+            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12  d-flex flex-column justify-content-center main-right-side">
               <div
                 data-aos="fade-up"
                 data-aos-delay="1300"

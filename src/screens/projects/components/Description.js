@@ -13,11 +13,11 @@ const Description = (props) => {
     showCaseStudy,
   } = props;
   return (
-    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center">
+    <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex flex-column align-items-start justify-content-center mobile-mid-align-centered">
       <p className="stat-title">{role}</p>
-      <p className="stat mb-2">{duties}</p>
-      <p className="stat mb-2">{stat1}</p>
-      <p className="stat">{stat2}</p>
+      <p className="stat mb-2 mobile-mid-centered">{duties}</p>
+      <p className="stat mb-2 mobile-mid-centered">{stat1}</p>
+      <p className="stat mobile-mid-centered">{stat2}</p>
       <p className="stat-center mb-0">
         {githubLink ? (
           <>

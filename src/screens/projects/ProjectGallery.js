@@ -1,18 +1,16 @@
-import React, { Suspense, lazy } from "react";
-import Loading from "../../g-components/Loading";
+import React from "react";
 
-const EasyScoreSection = lazy(() => import("./EasyScoreSection.js"));
-const VRFunderSection = lazy(() => import("./VRFunderSection"));
-const HairStudiosSection = lazy(() => import("./HairStudiosSection"));
+import GallerySection from "./components/GallerySection";
+import { sectionData as tesData } from "./data/TESdata";
+import { sectionData as vrData } from "./data/VRFunderData";
+import { sectionData as hairStudiosData } from "./data/HairStudiosData";
 
 const ProjectGallery = () => {
   return (
-    <div className="col-12">
-      <Suspense fallback={<Loading />}>
-        <EasyScoreSection />
-        <VRFunderSection />
-        <HairStudiosSection />
-      </Suspense>
+    <div className="col-12 d-flex flex-column align-items-center">
+      <GallerySection sectionData={tesData} />
+      <GallerySection sectionData={vrData} />
+      <GallerySection sectionData={hairStudiosData} />
     </div>
   );
 };
