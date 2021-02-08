@@ -25,8 +25,11 @@
 .big-list {
   font-size: 42px;
   font-weight: 600;
+  text-decoration: none;
 }
-
+ul {
+  /* list-style: none; */
+}
 .project-a {
   text-decoration: none;
   color: var(--primary-color);
