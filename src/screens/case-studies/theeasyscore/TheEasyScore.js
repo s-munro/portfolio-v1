@@ -21,16 +21,15 @@ import ContactCTA from "../../projects/ContactCTA";
 import "./theeasyscore.css";
 
 const TheEasyScore = () => {
-  const handleClick = (e) => {
-    console.log(e);
-  };
-
   return (
     <>
       <div className="container">
         <TESHeader />
-        <div className="row w-100 project-section-container pt-5" id="task">
-          <div className="col-xl-5 col-lg-12">
+        <div
+          className="row w-100 project-section-container justify-content-center align-items-center"
+          id="task"
+        >
+          <div className="col-xl-5 col-lg-12 textblock">
             <h4>Task/Goal</h4>
             <p>
               The previous website had an excellent uderlying API, rich with
@@ -43,9 +42,14 @@ const TheEasyScore = () => {
               modern design and smooth user experience.
             </p>
           </div>
-          <div className="col-xl-7 col-lg-12">
+          <div className="col-xl-7 col-lg-12 d-flex justify-content-center align-items-center">
             <div className="gif">
-              <img width="600px" src={oldtesgif} alt="easyscore gif" />
+              <img
+                // width="600px"
+                className="primary-gif"
+                src={oldtesgif}
+                alt="easyscore gif"
+              />
             </div>
           </div>
         </div>
@@ -53,30 +57,30 @@ const TheEasyScore = () => {
           <div className="col-xl-12 d-flex justify-content-center align-items-center mb-5">
             <h4>Old Mobile Design</h4>
           </div>
-          <div className="col-xl-4 col-md-4 col-4  d-flex justify-content-center align-items-center">
+          <div className="col-xl-4 col-md-4 col-12  d-flex justify-content-center align-items-center">
             {/* Mobile Home Page */}
             <img
-              width="150px"
+              // width="150px"
               src={oldTesHomeMobile}
               alt="old easyscore mobile home page design"
-              className="box-shadow"
+              className="box-shadow oldTesMobile"
             />
           </div>
-          <div className="col-xl-4 col-md-4 col-4 d-flex justify-content-center align-items-center">
+          <div className="col-xl-4 col-md-4 col-6 d-flex justify-content-center align-items-center">
             {/* Mobile Search Page */}
             <img
-              width="150px"
+              // width="150px"
               src={oldTesSearchMobile}
-              className="box-shadow"
+              className="box-shadow oldTesMobile"
               alt="old easyscore search screen on mobile"
             />
           </div>
-          <div className="col-xl-4 col-md-4 col-4 d-flex justify-content-center align-items-center">
+          <div className="col-xl-4 col-md-4 col-6 d-flex justify-content-center align-items-center">
             {/* Mobile Search Page */}
             <img
-              width="150px"
+              // width="150px"
               src={oldTesAboutMobile}
-              className="box-shadow"
+              className="box-shadow oldTesMobile"
               alt="old easyscore about page on mobile"
             />
           </div>
@@ -87,7 +91,7 @@ const TheEasyScore = () => {
           </div>
           <div className="col-12">
             <div className="row w-100 pb-5">
-              <div className="col-6 d-flex flex-column justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
                 <h6>Our Approach</h6>
                 <p>
                   We tried to take a users' perspective when planning the site's
@@ -102,7 +106,7 @@ const TheEasyScore = () => {
                   pages, technologies), and we ran with it.
                 </p>
               </div>
-              <div className="col-6 d-flex flex-column justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
                 <h6>Technologies/notable dependencies</h6>
                 <ul>
                   <li>React</li>
@@ -114,9 +118,9 @@ const TheEasyScore = () => {
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-6 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
                 <div className="d-flex justify-content-start">
-                  <h7>Color Palette</h7>
+                  <h6>Color Palette</h6>
                 </div>
                 <p>
                   The site was centered around a local university and had
@@ -133,19 +137,19 @@ const TheEasyScore = () => {
                   .
                 </p>
               </div>
-              <div className="col-6 d-flex justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
                 <img
                   src={homePageScreenshot}
                   width="500px"
-                  className="box-shadow"
+                  className="box-shadow gallery-img"
                   alt="easyscore home page screenshot"
                 />
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-6 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
                 <div className="d-flex justify-content-start">
-                  <h7>Purpose/Pages/Screens</h7>
+                  <h6>Purpose/Pages/Screens</h6>
                 </div>
                 <p>
                   The back-end offered a rich database with valuable selection
@@ -174,19 +178,19 @@ const TheEasyScore = () => {
                   .
                 </p>
               </div>
-              <div className="col-6 d-flex justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
                 <img
                   src={pagesGif}
-                  width="500px"
-                  className="box-shadow"
+                  // width="500px"
+                  className="box-shadow gallery-img"
                   alt="easy score changing pages demo"
                 />
               </div>
             </div>
             <div className="row w-100 pb-5">
-              <div className="col-6 d-flex flex-column justify-content-center align-items-start">
+              <div className="col-xl-6 col-md-12 d-flex flex-column justify-content-center align-items-start">
                 <div className="d-flex justify-content-start">
-                  <h7>Navigating & Visualizing Data</h7>
+                  <h6>Navigating & Visualizing Data</h6>
                 </div>
                 <p>
                   Naturally, the most important part of the website was data,
@@ -204,11 +208,11 @@ const TheEasyScore = () => {
                   bootstrap and media queries.
                 </p>
               </div>
-              <div className="col-6 d-flex justify-content-center align-items-center">
+              <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
                 <img
                   src={coursePageHeader}
-                  width="500px"
-                  className="box-shadow"
+                  // width="500px"
+                  className="box-shadow gallery-img"
                   alt="easy score course page header section"
                 />
               </div>
@@ -231,7 +235,8 @@ const TheEasyScore = () => {
               <div className="col-12 d-flex justify-content-center align-items-center ">
                 <div className="gif">
                   <img
-                    width="600px"
+                    className="primary-gif"
+                    // width="600px"
                     src={overviewgif}
                     alt="easy score general usage demo gif"
                   />
