@@ -1,4 +1,5 @@
 import React from "react";
+import TESHeader from "./components/TESHeader";
 import { AiFillCaretDown } from "react-icons/ai";
 import { IconContext } from "react-icons";
 
@@ -27,113 +28,8 @@ const TheEasyScore = () => {
   return (
     <>
       <div className="container">
-        <div className="row w-100">
-          <div className="col-12 d-flex flex-column justify-content-center align-items-end project-hero-container ">
-            <div className="col-12 d-flex justify-content-center">
-              <span
-                data-aos="fade-up"
-                data-aos-delay="25"
-                className="hover-up case-header"
-              >
-                T
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="100"
-                className="hover-up case-header"
-              >
-                h
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="125"
-                className="hover-up case-header"
-              >
-                e
-              </span>
-            </div>
-            <div className="col-12 d-flex justify-content-center">
-              <span
-                data-aos="fade-up"
-                data-aos-delay="150"
-                className="hover-up case-header"
-              >
-                E
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="300"
-                className="hover-up case-header"
-              >
-                a
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="400"
-                className="hover-up case-header"
-              >
-                s
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="350"
-                className="hover-up case-header"
-              >
-                y
-              </span>
-            </div>
-            <div className="col-12 d-flex justify-content-center">
-              <span
-                data-aos="fade-up"
-                data-aos-delay="200"
-                className="hover-up case-header"
-              >
-                S
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="150"
-                className="hover-up case-header"
-              >
-                c
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="300"
-                className="hover-up case-header"
-              >
-                o
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="400"
-                className="hover-up case-header"
-              >
-                r
-              </span>
-              <span
-                data-aos="fade-up"
-                data-aos-delay="350"
-                className="hover-up case-header"
-              >
-                e
-              </span>
-            </div>
-            <div className="col-12 d-flex justify-content-center">
-              <a
-                href="#easy-score"
-                name="easy-score"
-                className="caret-a"
-                onClick={handleClick}
-              >
-                <IconContext.Provider value={{ color: "#f53361" }}>
-                  <AiFillCaretDown className="floating" />
-                </IconContext.Provider>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="row w-100 project-section-container">
+        <TESHeader />
+        <div className="row w-100 project-section-container pt-5" id="task">
           <div className="col-xl-5 col-lg-12">
             <h4>Task/Goal</h4>
             <p>
@@ -219,7 +115,6 @@ const TheEasyScore = () => {
             </div>
             <div className="row w-100 pb-5">
               <div className="col-6 d-flex flex-column justify-content-center align-items-start">
-                <h6>Our Decision</h6>
                 <div className="d-flex justify-content-start">
                   <h7>Color Palette</h7>
                 </div>

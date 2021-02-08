@@ -13,12 +13,12 @@ import { Route, Switch } from "react-router-dom";
 import "aos/dist/aos.css";
 import "./App.css";
 
-AOS.init();
+AOS.init({ disable: "mobile" });
 
 const App = () => {
   return (
     <>
-      <div className="container">
+      <div className="container d-flex justify-content-center align-items-center">
         <Nav />
       </div>
       <Switch>
