@@ -55,6 +55,10 @@
     margin-top: 100px;
     /* padding-bottom: 5%; */
   }
+  /* .logo-flex { */
+  /* justify-content: flex-center; */
+  /* align-items: flex-end; */
+  /* } */
 }
 
 @media only screen and (max-width: 575px) {
