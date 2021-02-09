@@ -32,7 +32,7 @@ const theme = createMuiTheme({
 
 const store = createStore(reducer, applyMiddleware(logger));
 
-AOS.init({ disable: "mobile" });
+AOS.init();
 
 ReactDOM.render(
   <Router>
