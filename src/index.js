@@ -1,11 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-import "./index.css";
-import App from "./App";
-import "bootstrap/dist/css/bootstrap.min.css";
 
+import { createStore, applyMiddleware } from "redux";
+import { Provider } from "react-redux";
+import logger from "redux-logger";
+
+import App from "./App";
+import AOS from "aos";
+
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "aos/dist/aos.css";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+
+import reducer from "./state/reducer";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,11 +30,17 @@ const theme = createMuiTheme({
   },
 });
 
+const store = createStore(reducer, applyMiddleware(logger));
+
+AOS.init({ disable: "mobile" });
+
 ReactDOM.render(
   <Router>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </Provider>
   </Router>,
   document.getElementById("root")
 );
