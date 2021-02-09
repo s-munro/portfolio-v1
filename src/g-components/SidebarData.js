@@ -6,38 +6,40 @@ import * as IoIcons from "react-icons/io";
 export const SidebarData = [
   {
     title: "Home",
-    path: "/",
+    url: "/",
     icon: <AiIcons.AiFillHome />,
-    cName: "nav-text",
+    classname: "nav-text",
   },
   {
     title: "Projects",
-    path: "/projects",
+    url: "/projects",
     icon: <AiIcons.AiFillHome />,
-    cName: "nav-text",
+    classname: "nav-text",
   },
   {
     title: "Resume",
-    path: "#",
+    url:
+      "https://docs.google.com/document/d/1zyPr4E8VN1H1lpAXo6mSC4rj2HdxXmJIpCaCXKx6LH8/edit?usp=sharing",
     icon: <AiIcons.AiFillHome />,
-    cName: "nav-text",
+    classname: "nav-text",
   },
-  {
-    title: "Contact",
-    path: "#",
-    icon: <FaIcons.FaEnvelopeOpenText />,
-    cName: "nav-text",
-  },
+
   {
     title: "Github",
-    path: "#",
+    url: "https://github.com/s-munro",
     icon: <AiIcons.AiFillHome />,
-    cName: "nav-text",
+    classname: "nav-text",
   },
   {
     title: "LinkedIn",
-    path: "#",
+    url: "https://www.linkedin.com/in/sjm-munro/",
     icon: <AiIcons.AiFillHome />,
-    cName: "nav-text",
+    classname: "nav-text",
+  },
+  {
+    title: "Contact",
+    url: 'mailto:sjm.munro@gmail.com?subject="re:portfolio"',
+    icon: <FaIcons.FaEnvelopeOpenText />,
+    classname: "nav-text",
   },
 ];

@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { setShowSidebar } from "../state/actions";
+import { Link } from "react-router-dom";
 
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
@@ -15,20 +16,45 @@ function Sidebar(props) {
   const handleClose = () => {
     props.setShowSidebar(false);
   };
+  const prevDefault = (e) => {
+    e.preventDefault();
+  };
 
   return (
-    <div className={props.showSidebar ? "sidebar active" : "sidebar"}>
-      <List disablePadding dense>
-        <ListItem key={"button"} onClick={handleClose}>
-          <GrClose size={"32px"} />
-        </ListItem>
-
-        {SidebarData.map(({ title, path, ...rest }, index) => (
-          <ListItem key={index} button {...rest}>
-            <ListItemText>{title}</ListItemText>
+    <div
+      className={
+        props.showSidebar ? "row w-100 sidebar active" : "row w-100 sidebar"
+      }
+    >
+      <div className="col-12 d-flex flex-column align-items-end justify-content-start">
+        <List className="col-12 d-flex flex-column p-0" disablePadding dense>
+          <ListItem>
+            <GrClose
+              className="close-button"
+              onClick={handleClose}
+              size={"20px"}
+            />
           </ListItem>
-        ))}
-      </List>
+
+          {SidebarData.map(({ title, path, url, ...rest }, index) => (
+            <ListItem
+              component={Link}
+              to={url}
+              key={index}
+              className="sidebar-list-item"
+              onClick={handleClose}
+              // className="col-12 d-flex justify-content-center p-0"
+              button
+            >
+              <div className="sidebar-list-item-div">
+                <ListItemText className="sidebar-list-text">
+                  {title}
+                </ListItemText>
+              </div>
+            </ListItem>
+          ))}
+        </List>
+      </div>
     </div>
   );
 }
