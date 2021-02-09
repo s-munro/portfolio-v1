@@ -20,6 +20,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="25"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             T
           </span>
@@ -27,6 +28,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="100"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             h
           </span>
@@ -34,6 +36,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="125"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             e
           </span>
@@ -43,6 +46,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="150"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             E
           </span>
@@ -50,6 +54,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="300"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             a
           </span>
@@ -57,6 +62,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="400"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             s
           </span>
@@ -64,6 +70,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="350"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             y
           </span>
@@ -73,6 +80,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="200"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             S
           </span>
@@ -80,6 +88,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="150"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             c
           </span>
@@ -87,6 +96,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="300"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             o
           </span>
@@ -94,6 +104,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="400"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             r
           </span>
@@ -101,6 +112,7 @@ const TESHeader = () => {
             data-aos="fade-up"
             data-aos-delay="350"
             className="hover-up case-header"
+            data-aos-anchor=".nav-a"
           >
             e
           </span>
