@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 import { setShowSidebar } from "../../state/actions";
 import "../../App.css";
 import { BsArrowReturnRight } from "react-icons/bs";
@@ -10,11 +9,6 @@ const Home = (props) => {
 
   const handleTourClick = () => {
     history.push("/projects");
-  };
-
-  const handleShow = (e) => {
-    props.setShowSidebar(!props.showSidebar);
-    console.log(e);
   };
 
   return (
@@ -106,7 +100,6 @@ const Home = (props) => {
                   <span className="secondary link" onClick={handleTourClick}>
                     tour
                   </span>
-                  <button onClick={handleShow}>Click me!!</button>
                   <br />
                 </div>
                 <BsArrowReturnRight className="" />
@@ -125,4 +118,4 @@ const mapState = (state) => {
   };
 };
 
-export default connect(mapState, { setShowSidebar })(Home);
+export default Home;
