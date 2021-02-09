@@ -1,10 +1,16 @@
 import React from "react";
 import { BiMenuAltRight } from "react-icons/bi";
-import Hidden from "@material-ui/core/Hidden";
+import { connect } from "react-redux";
+import { setShowSidebar } from "../state/actions";
 
 import "./index.css";
 
-const Nav = () => {
+const Nav = (props) => {
+  const handleSidebarClick = () => {
+    console.log("yo!");
+    props.setShowSidebar(!props.showSidebar);
+  };
+
   return (
     <nav className="row w-100 d-flex align-items-end pt-4">
       <div className="col-xl-7 col-lg-7 col-md-2 col-sm-2 col-10 d-flex logo-flex align-items-center">
@@ -17,8 +23,9 @@ const Nav = () => {
       <div
         className="col-2 d-flex justify-content-end align-items-center hamburger-button"
         style={{ height: "100%" }}
+        onClick={handleSidebarClick}
       >
-        <BiMenuAltRight size={"32px"} />
+        <BiMenuAltRight size={"32px"} onClick={handleSidebarClick} />
       </div>
       <div
         data-aos="fade-up"
@@ -88,4 +95,10 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+const mapState = (state) => {
+  return {
+    showSidebar: state.showSidebar,
+  };
+};
+
+export default connect(mapState, { setShowSidebar })(Nav);

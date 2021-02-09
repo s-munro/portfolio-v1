@@ -1,7 +1,5 @@
 import React from "react";
 import TESHeader from "./components/TESHeader";
-import { AiFillCaretDown } from "react-icons/ai";
-import { IconContext } from "react-icons";
 
 import { BsLink45Deg } from "react-icons/bs";
 
