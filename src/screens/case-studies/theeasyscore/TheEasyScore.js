@@ -3,9 +3,12 @@ import TESHeader from "./components/TESHeader";
 
 import { BsLink45Deg } from "react-icons/bs";
 
-import overviewgif from "./assets/tes-overview-gif.gif";
-import oldtesgif from "./assets/old-tes-demo-hq.gif";
-import pagesGif from "./assets/tes-page-demo.gif";
+import overviewgif from "./assets/tes-overview-gif.webm";
+import overviewgif2 from "./assets/tes-overview-gif.mp4";
+import oldtesgif from "./assets/old-tes-demo-hq.webm";
+import oldtesgif2 from "./assets/old-tes-demo-hq.mp4";
+import pagesGif from "./assets/tes-page-demo.webm";
+import pagesGif2 from "./assets/tes-page-demo.mp4";
 
 import oldTesHomeMobile from "./assets/old-tes-home-mobile.png";
 import oldTesSearchMobile from "./assets/old-tes-search-mobile.png";
@@ -42,12 +45,24 @@ const TheEasyScore = () => {
           </div>
           <div className="col-xl-7 col-lg-12 d-flex justify-content-center align-items-center">
             <div className="gif">
-              <img
+              <video
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="primary-gif"
+                type="video/mp4"
+                alt="easyscore gif"
+              >
+                <source src={oldtesgif} type="video/webm" />
+                <source src={oldtesgif2} type="video/mp4" />
+              </video>
+              {/* <img
                 // width="600px"
                 className="primary-gif"
                 src={oldtesgif}
                 alt="easyscore gif"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -179,12 +194,18 @@ const TheEasyScore = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
-                <img
-                  src={pagesGif}
-                  // width="500px"
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="box-shadow gallery-img"
+                  type="video/mp4"
                   alt="easy score changing pages demo"
-                />
+                >
+                  <source src={pagesGif} type="video/webm" />
+                  <source src={pagesGif2} type="video/mp4" />
+                </video>
               </div>
             </div>
             <div className="row w-100 pb-5">
@@ -234,12 +255,18 @@ const TheEasyScore = () => {
               </div>
               <div className="col-12 d-flex justify-content-center align-items-center ">
                 <div className="gif">
-                  <img
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="primary-gif"
-                    // width="600px"
-                    src={overviewgif}
+                    type="video/mp4"
                     alt="easy score general usage demo gif"
-                  />
+                  >
+                    <source src={overviewgif} type="video/webm" />
+                    <source src={overviewgif2} type="video/mp4" />
+                  </video>
                 </div>
               </div>
             </div>

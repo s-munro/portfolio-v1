@@ -1,4 +1,5 @@
-import gif from "../../../assets/vr-funder-demo.gif";
+import gif from "../../../assets/vr-funder-demo.webm";
+import gif2 from "../../../assets/vr-funder-demo.mp4";
 
 export const sectionData = {
   sectionId: "vr-funder",
@@ -6,6 +7,7 @@ export const sectionData = {
   headline: `A VR Funding platform for fundraisers to list startups and funders to
   browse/fund`,
   gif: gif,
+  gif2: gif2,
   descriptionData: {
     role: "Front-End Developer",
     duties: `Developed/Implemented private routing, CRUD operations, global state, validation`,

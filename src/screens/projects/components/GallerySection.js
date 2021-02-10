@@ -2,7 +2,14 @@ import React from "react";
 import Description from "./Description";
 
 const GallerySection = ({ sectionData }) => {
-  const { sectionId, title, headline, gif, descriptionData } = sectionData;
+  const {
+    sectionId,
+    title,
+    headline,
+    gif,
+    gif2,
+    descriptionData,
+  } = sectionData;
   return (
     <div className="row w-100 bottom-margin-twenty" id={sectionId}>
       <div className="col-12 d-flex flex-column align-items-center justify-content-center mb-5">
@@ -36,7 +43,18 @@ const GallerySection = ({ sectionData }) => {
       />
       <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center mobile-mid-margin">
         <div className="gif">
-          <img src={gif} className="gallery-gif" alt="easyscore gif" />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="gallery-gif"
+            type="video/mp4"
+            alt="easyscore gif"
+          >
+            <source src={gif} type="video/webm" />
+            <source src={gif2} type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>
