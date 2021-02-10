@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import TESHeader2 from "./components/TESHeader2";
 
 import { BsLink45Deg } from "react-icons/bs";
@@ -10,6 +10,8 @@ import oldtesgif2 from "./assets/old-tes-demo-hq.mp4";
 import pagesGif from "./assets/tes-page-demo.webm";
 import pagesGif2 from "./assets/tes-page-demo.mp4";
 
+import homeimg from "./assets/easy-score-home.png";
+
 import oldTesHomeMobile from "./assets/old-tes-home-mobile.png";
 import oldTesSearchMobile from "./assets/old-tes-search-mobile.png";
 import oldTesAboutMobile from "./assets/old-tes-about-mobile.png";
@@ -18,10 +20,18 @@ import homePageScreenshot from "./assets/home-page-screenshot.png";
 import coursePageHeader from "./assets/fullscreen.png";
 
 import ContactCTA from "../../projects/ContactCTA";
+import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
 
 import "./theeasyscore.css";
 
 const TheEasyScore = () => {
+  // const videoRef = useRef(null);
+
+  // useEffect(() => {
+  //   const { current: videoElement } = videoRef;
+  //   videoElement.setAttribute("muted", "");
+  // }, []);
+
   return (
     <>
       <div className="container d-flex flex-column align-items-center">
@@ -45,24 +55,11 @@ const TheEasyScore = () => {
           </div>
           <div className="col-xl-7 col-lg-12 d-flex justify-content-center align-items-center">
             <div className="gif">
-              <video
-                autoPlay
-                loop
-                muted
-                playsInline
+              <AutoPlaySilentVideo
                 className="primary-gif"
-                type="video/mp4"
-                alt="easyscore gif"
-              >
-                <source src={oldtesgif} type="video/webm" />
-                <source src={oldtesgif2} type="video/mp4" />
-              </video>
-              {/* <img
-                // width="600px"
-                className="primary-gif"
-                src={oldtesgif}
-                alt="easyscore gif"
-              /> */}
+                src1={oldtesgif}
+                src2={oldtesgif2}
+              />
             </div>
           </div>
         </div>
@@ -194,18 +191,25 @@ const TheEasyScore = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-md-12 d-flex justify-content-center align-items-center">
-                <video
+                <AutoPlaySilentVideo
+                  className="box-shadow gallery-img"
+                  src1={pagesGif}
+                  src2={pagesGif2}
+                />
+                {/* <video
                   autoPlay
+                  ref={videoRef}
                   loop
                   muted
                   playsInline
+                  defaultMuted
                   className="box-shadow gallery-img"
                   type="video/mp4"
                   alt="easy score changing pages demo"
                 >
                   <source src={pagesGif} type="video/webm" />
                   <source src={pagesGif2} type="video/mp4" />
-                </video>
+                </video> */}
               </div>
             </div>
             <div className="row w-100 pb-5">
@@ -255,18 +259,26 @@ const TheEasyScore = () => {
               </div>
               <div className="col-12 d-flex justify-content-center align-items-center ">
                 <div className="gif">
-                  <video
+                  <AutoPlaySilentVideo
+                    className="primary-gif"
+                    src1={overviewgif}
+                    src2={overviewgif2}
+                    poster={homeimg}
+                  />
+                  {/* <video
                     autoPlay
+                    ref={videoRef}
                     loop
                     muted
                     playsInline
+                    defaultMuted
                     className="primary-gif"
                     type="video/mp4"
                     alt="easy score general usage demo gif"
                   >
                     <source src={overviewgif} type="video/webm" />
                     <source src={overviewgif2} type="video/mp4" />
-                  </video>
+                  </video> */}
                 </div>
               </div>
             </div>
