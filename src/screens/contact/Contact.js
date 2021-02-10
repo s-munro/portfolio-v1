@@ -23,11 +23,9 @@ const Contact = () => {
 
   const handleChange = (e, value) => {
     setFormValues({ ...formValues, [e.target.name]: e.target.value });
-    console.log(formValues);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formValues);
     setFormValues(initialFormValues);
   };
 

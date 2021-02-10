@@ -2,9 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { createStore, applyMiddleware } from "redux";
+import { createStore } from "redux";
 import { Provider } from "react-redux";
-import logger from "redux-logger";
 
 import App from "./App";
 import AOS from "aos";
@@ -30,7 +29,7 @@ const theme = createMuiTheme({
   },
 });
 
-const store = createStore(reducer, applyMiddleware(logger));
+const store = createStore(reducer);
 
 AOS.init();
 
