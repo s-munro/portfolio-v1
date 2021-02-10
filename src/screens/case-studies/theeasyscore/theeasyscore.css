@@ -4,6 +4,10 @@
   /* padding-bottom: 5%; */
   /* margin-bottom: 5%; */
 }
+.case-study-header-section {
+  /* min-height: 80vh; */
+  padding-top: 25%;
+}
 .project-section-container {
   min-height: 60vh;
   margin: 5% 0;
@@ -65,6 +69,9 @@
     width: 300px;
   }
 }
+.case-study-header-container {
+  min-height: 80vh;
+}
 @media only screen and (max-width: 450px) {
   .primary-gif {
     width: 300px;
@@ -72,4 +79,8 @@
   .gallery-img {
     width: 275px;
   }
+  /* .padding-top-mobile {
+    padding-top: 210px;
+    padding-bottom: 200px;
+  } */
 }

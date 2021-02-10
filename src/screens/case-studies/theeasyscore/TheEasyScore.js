@@ -1,5 +1,5 @@
 import React from "react";
-import TESHeader from "./components/TESHeader";
+import TESHeader2 from "./components/TESHeader2";
 
 import { BsLink45Deg } from "react-icons/bs";
 
@@ -25,7 +25,7 @@ const TheEasyScore = () => {
   return (
     <>
       <div className="container d-flex flex-column align-items-center">
-        <TESHeader />
+        <TESHeader2 />
         <div
           className="row w-100 project-section-container justify-content-center align-items-center"
           id="task"
