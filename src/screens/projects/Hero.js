@@ -1,5 +1,4 @@
-import React, { lazy, Suspense } from "react";
-import Loading from "../../g-components/Loading";
+import React from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import ProjectsHeader from "./components/ProjectsHeader";
 import "./projects.css";

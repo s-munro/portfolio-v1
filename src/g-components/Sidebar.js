@@ -16,9 +16,6 @@ function Sidebar(props) {
   const handleClose = () => {
     props.setShowSidebar(false);
   };
-  const prevDefault = (e) => {
-    e.preventDefault();
-  };
 
   return (
     <div

@@ -1,5 +1,4 @@
 import React from "react";
-import { setShowSidebar } from "../../state/actions";
 import "../../App.css";
 import { BsArrowReturnRight } from "react-icons/bs";
 import { useHistory } from "react-router-dom";
@@ -110,12 +109,6 @@ const Home = (props) => {
       </div>
     </div>
   );
-};
-
-const mapState = (state) => {
-  return {
-    showSidebar: state.showSidebar,
-  };
 };
 
 export default Home;
