@@ -1,7 +1,8 @@
 .project-hero-container {
-  min-height: 80vh;
-  padding-top: 10%;
-  margin-bottom: 5%;
+  /* min-height: 80vh; */
+  padding-top: 17%;
+  padding-bottom: 5%;
+  /* margin-bottom: 5%; */
 }
 .project-section-container {
   min-height: 60vh;
