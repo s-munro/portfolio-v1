@@ -7,7 +7,6 @@ import "./index.css";
 
 const Nav = (props) => {
   const handleSidebarClick = () => {
-    console.log("yo!");
     props.setShowSidebar(!props.showSidebar);
   };
 

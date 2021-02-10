@@ -1,5 +1,4 @@
-import React, { lazy, Suspense } from "react";
-import Loading from "../../g-components/Loading";
+import React from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import ProjectsHeader from "./components/ProjectsHeader";
 import "./projects.css";
@@ -7,7 +6,6 @@ import "./projects.css";
 const Hero = () => {
   const handleClick = (event) => {
     event.preventDefault();
-    console.log(event.currentTarget.name);
     let element = document.getElementById(event.currentTarget.name);
     element.scrollIntoView({ behavior: "smooth", block: "start" });
   };

@@ -1,10 +1,12 @@
-import gif from "../../../assets/707-hair-studios-demo-gif.gif";
+import gif from "../../../assets/707-hair-studios-demo-gif.webm";
+import gif2 from "../../../assets/707-hair-studios-demo-gif.mp4";
 
 export const sectionData = {
   sectionId: "studios",
   title: "707 Hair Studios",
   headline: "A trendy/modern Chicago-based hair salon",
   gif: gif,
+  gif2: gif2,
   descriptionData: {
     role: "Lead Developer/Designer",
     duties: `Designed and Implemented WordPress site for the hair studio's

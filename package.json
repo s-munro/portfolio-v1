@@ -13,7 +13,6 @@
     "bootstrap": "^4.6.0",
     "fontsource-poppins": "^4.0.0",
     "leaflet": "^1.7.1",
-    "mapbox-gl": "^2.1.0",
     "mapbox-gl-leaflet": "0.0.14",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
@@ -25,7 +24,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
-    "redux-logger": "^3.0.6",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

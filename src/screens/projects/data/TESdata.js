@@ -1,10 +1,12 @@
-import gif from "../../../assets/easyscore-giphy-demo.gif";
+import gif from "../../../assets/easyscore-giphy-demo.webm";
+import gif2 from "../../../assets/easyscore-giphy-demo-mp4.mp4";
 
 export const sectionData = {
   sectionId: "easy-score",
   title: "The Easy Score",
   headline: "An advanced course-planning resource for college students",
   gif: gif,
+  gif2: gif2,
   descriptionData: {
     role: "Lead Developer",
     duties: "Organized and implemented site design and development",
