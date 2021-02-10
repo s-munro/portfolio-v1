@@ -17,102 +17,102 @@ const TESHeader = () => {
       <div className="col-12 d-flex flex-column justify-content-center align-items-end project-hero-container ">
         <div className="col-12 d-flex justify-content-center">
           <span
-            data-aos="fade-up"
-            data-aos-delay="25"
+            // data-aos="fade-up"
+            // data-aos-delay="25"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             T
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="100"
+            // data-aos="fade-up"
+            // data-aos-delay="100"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             h
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="125"
+            // data-aos="fade-up"
+            // data-aos-delay="125"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             e
           </span>
         </div>
         <div className="col-12 d-flex justify-content-center">
           <span
-            data-aos="fade-up"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-delay="150"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             E
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="300"
+            // data-aos="fade-up"
+            // data-aos-delay="300"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             a
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="400"
+            // data-aos="fade-up"
+            // data-aos-delay="400"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             s
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="350"
+            // data-aos="fade-up"
+            // data-aos-delay="350"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             y
           </span>
         </div>
         <div className="col-12 d-flex justify-content-center">
           <span
-            data-aos="fade-up"
-            data-aos-delay="200"
+            // data-aos="fade-up"
+            // data-aos-delay="200"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             S
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="150"
+            // data-aos="fade-up"
+            // data-aos-delay="150"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             c
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="300"
+            // data-aos="fade-up"
+            // data-aos-delay="300"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             o
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="400"
+            // data-aos="fade-up"
+            // data-aos-delay="400"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             r
           </span>
           <span
-            data-aos="fade-up"
-            data-aos-delay="350"
+            // data-aos="fade-up"
+            // data-aos-delay="350"
             className="hover-up case-header"
-            data-aos-anchor=".nav-a"
+            // data-aos-anchor=".nav-a"
           >
             e
           </span>
