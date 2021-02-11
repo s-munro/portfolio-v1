@@ -28,6 +28,7 @@ const Nav = (props) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-anchor=".nav-a"
         data-aos-delay="0"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
@@ -39,6 +40,7 @@ const Nav = (props) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-anchor=".nav-a"
         data-aos-delay="0"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
@@ -53,6 +55,7 @@ const Nav = (props) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-anchor=".nav-a"
         data-aos-delay="0"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
@@ -64,6 +67,7 @@ const Nav = (props) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-anchor=".nav-a"
         data-aos-delay="0"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
@@ -78,6 +82,7 @@ const Nav = (props) => {
       </div>
       <div
         data-aos="fade-up"
+        data-aos-anchor=".nav-a"
         data-aos-delay="1300"
         className="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-2 d-flex justify-content-center align-items-center non-hamburger"
       >
