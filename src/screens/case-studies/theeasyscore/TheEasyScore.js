@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import TESHeader2 from "./components/TESHeader2";
 
 import { BsLink45Deg } from "react-icons/bs";
@@ -11,13 +11,15 @@ import pagesGif from "./assets/tes-page-demo.webm";
 import pagesGif2 from "./assets/tes-page-demo.mp4";
 
 import homeimg from "./assets/easy-score-home.png";
+import oldimg from "./assets/old-home.png";
+import searchpageimg from "./assets/search-page-poster.png";
 
 import oldTesHomeMobile from "./assets/old-tes-home-mobile.png";
 import oldTesSearchMobile from "./assets/old-tes-search-mobile.png";
 import oldTesAboutMobile from "./assets/old-tes-about-mobile.png";
 
 import homePageScreenshot from "./assets/home-page-screenshot.png";
-import coursePageHeader from "./assets/fullscreen.png";
+import coursePageHeader from "./assets/course-page-header.png";
 
 import ContactCTA from "../../projects/ContactCTA";
 import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
@@ -25,13 +27,6 @@ import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
 import "./theeasyscore.css";
 
 const TheEasyScore = () => {
-  // const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   const { current: videoElement } = videoRef;
-  //   videoElement.setAttribute("muted", "");
-  // }, []);
-
   return (
     <>
       <div className="container d-flex flex-column align-items-center">
@@ -59,6 +54,7 @@ const TheEasyScore = () => {
                 className="primary-gif"
                 src1={oldtesgif}
                 src2={oldtesgif2}
+                poster={oldimg}
               />
             </div>
           </div>
@@ -106,11 +102,11 @@ const TheEasyScore = () => {
                   <h6>Our Approach</h6>
                 </div>
                 <p>
-                  We tried to take a users' perspective when planning the site's
+                  We tried to take a user's perspective when planning the site's
                   design and functionality. The purpose of the site was to be
                   used as a course-planning resource for students. One
                   underlying issue, however, was that the site had no clear
-                  indication how <b>how to use it</b>.
+                  indication <b>how to use it</b>.
                   <br />
                   We needed to establish <b>visual heirarchy</b>, and decide
                   which pieces of data could be most useful to students. The
@@ -126,6 +122,7 @@ const TheEasyScore = () => {
                   <li>Node.js</li>
                   <li>Chart.js</li>
                   <li>Fuse.js</li>
+                  <li>OAuth2</li>
                 </ul>
               </div>
             </div>
@@ -136,12 +133,11 @@ const TheEasyScore = () => {
                 </div>
                 <p>
                   The site was centered around a local university and had
-                  previously incorporated that heavily into it's color theming.
-                  We took that into mind with design, deciding that it would be
-                  best to keep a simple palette (white with a primary color), to
-                  keep call-to-actions and interactivity intuitive. <br />
-                  We needed to establish <b>visual heirarchy</b>, and decide
-                  which pieces of data could be most useful to students.{" "}
+                  previously incorporated the school's colors into it's color
+                  theming. We took that into mind with design, deciding that it
+                  would be best to keep a simple palette (white background with
+                  one primary color). This would allow us to easily create focal
+                  points and keep interactivity intuitive.
                   <b>
                     Ideally, users would be able to navigate through and use it
                     without any instructions
@@ -164,24 +160,24 @@ const TheEasyScore = () => {
                   <h6>Purpose/Pages/Screens</h6>
                 </div>
                 <p>
-                  The back-end offered a rich database with valuable selection
-                  data, including course ratings, which requirements each course
-                  fulfills, who is teaching it next semester, who has taught it
-                  previously, and all of the instructors' corresponding grade
-                  distributions and what time of day their sections are offered
-                  at. Basically, this had all of the data of the official IU
-                  course selection tool and <b>more</b>.
+                  The back-end offered a rich database of statistics and course
+                  data, including values such as course ratings, fulfilled
+                  requirements, upcoming instructors, previous instructors, and
+                  instructor statistics (grade distribution, years taught,
+                  etc.). This had all of the data of the official IU course
+                  selection tool and more.
                   <br />
                   <br />
-                  We decided that because course data includes time of day,
-                  fulfilled requirements, difficulty, and credit-hours, this
-                  would be an incredible tool for selecting courses. Thus, the
-                  initial search should be specifically dedicated for finding
-                  the <b>optimal course</b>. Once students found a
+                  Since Course data was offered for courses' times of day,
+                  fulfilled requirements, difficulties, and credit-hours, so we
+                  decided to focus first on course selection. The initial search
+                  should be specifically dedicated for finding the{" "}
+                  <b>optimal course</b>. Once students found a
                   course-of-interest, we wanted them to be able to view it for
-                  more information, where they could filter through its
-                  corresponding professors to find the one who best-suites their
-                  desires (time-of-day, grade distribution, difficulty,
+                  more information, where they could proceed to filter through
+                  its corresponding professors and find the professor who
+                  best-suites their desires (based off of factors such as
+                  instructors' time-of-day, grade distribution, difficulty,
                   number-of-years taught, etc.). With this in mind, we created
                   the flow as{" "}
                   <b>
@@ -195,21 +191,8 @@ const TheEasyScore = () => {
                   className="box-shadow gallery-img"
                   src1={pagesGif}
                   src2={pagesGif2}
+                  poster={searchpageimg}
                 />
-                {/* <video
-                  autoPlay
-                  ref={videoRef}
-                  loop
-                  muted
-                  playsInline
-                  defaultMuted
-                  className="box-shadow gallery-img"
-                  type="video/mp4"
-                  alt="easy score changing pages demo"
-                >
-                  <source src={pagesGif} type="video/webm" />
-                  <source src={pagesGif2} type="video/mp4" />
-                </video> */}
               </div>
             </div>
             <div className="row w-100 pb-5">
@@ -265,20 +248,6 @@ const TheEasyScore = () => {
                     src2={overviewgif2}
                     poster={homeimg}
                   />
-                  {/* <video
-                    autoPlay
-                    ref={videoRef}
-                    loop
-                    muted
-                    playsInline
-                    defaultMuted
-                    className="primary-gif"
-                    type="video/mp4"
-                    alt="easy score general usage demo gif"
-                  >
-                    <source src={overviewgif} type="video/webm" />
-                    <source src={overviewgif2} type="video/mp4" />
-                  </video> */}
                 </div>
               </div>
             </div>

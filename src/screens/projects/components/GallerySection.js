@@ -1,5 +1,6 @@
 import React from "react";
 import Description from "./Description";
+import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
 
 const GallerySection = ({ sectionData }) => {
   const {
@@ -9,6 +10,7 @@ const GallerySection = ({ sectionData }) => {
     gif,
     gif2,
     descriptionData,
+    poster,
   } = sectionData;
   return (
     <div className="row w-100 bottom-margin-twenty" id={sectionId}>
@@ -43,7 +45,13 @@ const GallerySection = ({ sectionData }) => {
       />
       <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center mobile-mid-margin">
         <div className="gif">
-          <video
+          <AutoPlaySilentVideo
+            className="gallery-gif"
+            src1={gif}
+            src2={gif2}
+            poster={poster}
+          />
+          {/* <video
             autoPlay
             loop
             muted
@@ -54,7 +62,7 @@ const GallerySection = ({ sectionData }) => {
           >
             <source src={gif} type="video/webm" />
             <source src={gif2} type="video/mp4" />
-          </video>
+          </video> */}
         </div>
       </div>
     </div>

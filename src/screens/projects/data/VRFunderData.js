@@ -1,5 +1,6 @@
 import gif from "../../../assets/vr-funder-demo.webm";
 import gif2 from "../../../assets/vr-funder-demo.mp4";
+import poster from "../../../assets/vr-poster.png";
 
 export const sectionData = {
   sectionId: "vr-funder",
@@ -8,6 +9,7 @@ export const sectionData = {
   browse/fund`,
   gif: gif,
   gif2: gif2,
+  poster: poster,
   descriptionData: {
     role: "Front-End Developer",
     duties: `Developed/Implemented private routing, CRUD operations, global state, validation`,
