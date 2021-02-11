@@ -122,6 +122,7 @@ const TheEasyScore = () => {
                   <li>Node.js</li>
                   <li>Chart.js</li>
                   <li>Fuse.js</li>
+                  <li>OAuth2</li>
                 </ul>
               </div>
             </div>

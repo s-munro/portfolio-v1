@@ -13,7 +13,7 @@ export const sectionData = {
     role: "Lead Developer",
     duties: "Organized and implemented site design and development",
     stat1: "React, Redux, Node.js",
-    stat2: "Material-UI, Chart.js, Fuse.js, Nodemailer",
+    stat2: "Material-UI, Chart.js, Fuse.js, Nodemailer, OAuth2",
     githubLink: "https://github.com/s-munro/easyscore",
     demoLink: "https://the-easy-score.herokuapp.com/",
     caseStudyUrl: "/case-studies/the-easy-score",

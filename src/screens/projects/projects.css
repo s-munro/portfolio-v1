@@ -101,9 +101,6 @@
     font-size: 48px;
   } */
 }
-ul {
-  /* list-style: none; */
-}
 .project-a {
   text-decoration: none;
   color: var(--primary-color);
