@@ -42,43 +42,6 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-
-      {/* <main className="row w-100 d-flex justify-content-center align-items-center">
-        <div className="col-12 w-100 d-flex align-items-center justify-content-center">
-          <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 hero-border-right d-flex flex-column justify-content-center align-items-center">
-            <AnimatedHeader />
-            <div
-              data-aos="fade-up"
-              data-aos-delay="400"
-              className="col-12 tour-text d-flex flex-column align-items-center justify-content-center"
-            >
-              Software Developer
-            </div>
-          </div>
-
-          <div
-            className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12  d-flex flex-column justify-content-center align-items-center"
-            data-aos="fade-up"
-            data-aos-delay="1300"
-          >
-            <div
-              data-aos="fade-up"
-              data-aos-delay="1300"
-              // data-aos-anchor=".tour-text"
-              className="row w-100 portal d-flex flex-column align-items-center justify-content-center"
-            >
-              <div className="col-12 d-flex justify-content-center align-items-center">
-                Take&nbsp;the&nbsp;
-                <span className="secondary link" onClick={handleTourClick}>
-                  tour
-                </span>
-                <br />
-              </div>
-              <BsArrowReturnRight className="" />
-            </div>
-          </div>
-        </div>
-      </main> */}
     </div>
   );
 };
