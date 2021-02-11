@@ -1,5 +1,6 @@
 import gif from "../../../assets/easyscore-giphy-demo.webm";
 import gif2 from "../../../assets/easyscore-giphy-demo-mp4.mp4";
+import poster from "../../../assets/tes-poster.png";
 
 export const sectionData = {
   sectionId: "easy-score",
@@ -7,6 +8,7 @@ export const sectionData = {
   headline: "An advanced course-planning resource for college students",
   gif: gif,
   gif2: gif2,
+  poster: poster,
   descriptionData: {
     role: "Lead Developer",
     duties: "Organized and implemented site design and development",

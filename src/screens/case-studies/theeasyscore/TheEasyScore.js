@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import TESHeader2 from "./components/TESHeader2";
 
 import { BsLink45Deg } from "react-icons/bs";
@@ -11,13 +11,15 @@ import pagesGif from "./assets/tes-page-demo.webm";
 import pagesGif2 from "./assets/tes-page-demo.mp4";
 
 import homeimg from "./assets/easy-score-home.png";
+import oldimg from "./assets/old-home.png";
+import searchpageimg from "./assets/search-page-poster.png";
 
 import oldTesHomeMobile from "./assets/old-tes-home-mobile.png";
 import oldTesSearchMobile from "./assets/old-tes-search-mobile.png";
 import oldTesAboutMobile from "./assets/old-tes-about-mobile.png";
 
 import homePageScreenshot from "./assets/home-page-screenshot.png";
-import coursePageHeader from "./assets/fullscreen.png";
+import coursePageHeader from "./assets/course-page-header.png";
 
 import ContactCTA from "../../projects/ContactCTA";
 import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
@@ -25,13 +27,6 @@ import AutoPlaySilentVideo from "../../../g-components/AutoPlaySilentVideo";
 import "./theeasyscore.css";
 
 const TheEasyScore = () => {
-  // const videoRef = useRef(null);
-
-  // useEffect(() => {
-  //   const { current: videoElement } = videoRef;
-  //   videoElement.setAttribute("muted", "");
-  // }, []);
-
   return (
     <>
       <div className="container d-flex flex-column align-items-center">
@@ -59,6 +54,7 @@ const TheEasyScore = () => {
                 className="primary-gif"
                 src1={oldtesgif}
                 src2={oldtesgif2}
+                poster={oldimg}
               />
             </div>
           </div>
@@ -195,6 +191,7 @@ const TheEasyScore = () => {
                   className="box-shadow gallery-img"
                   src1={pagesGif}
                   src2={pagesGif2}
+                  poster={searchpageimg}
                 />
                 {/* <video
                   autoPlay
