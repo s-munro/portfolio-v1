@@ -1,12 +1,6 @@
 .App {
   text-align: center;
 }
-main {
-  min-height: 80vh;
-}
-/* .hero-border-right {
-  border-right: 2px solid black;
-} */
 h1.boldest {
   font-size: 72px;
   font-weight: 800;

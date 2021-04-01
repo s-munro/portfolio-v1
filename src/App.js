@@ -10,6 +10,7 @@ import HairStudios from "./screens/case-studies/hairstudios/HairStudios";
 
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
+import "./App.scss";
 
 const App = () => {
   return (
