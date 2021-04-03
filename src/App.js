@@ -14,7 +14,7 @@ import "./App.scss";
 
 const App = () => {
   return (
-    <>
+    <div className="main-container">
       <div className="container d-flex justify-content-center align-items-center">
         <Nav />
       </div>
@@ -28,7 +28,7 @@ const App = () => {
         <Route path="/case-studies/vr-funder" component={VRFunder} />
         <Route path="/case-studies/707-hair-studios" component={HairStudios} />
       </Switch>
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.main-container {
+  min-height: 100vh;
+}
+
 h1.boldest {
   font-size: 72px;
   font-weight: 800;
