@@ -8,7 +8,6 @@ import { AiFillCaretDown } from "react-icons/ai";
 const TESHeader = () => {
   const handleClick = (event) => {
     event.preventDefault();
-    console.log(event.currentTarget.name);
     let element = document.getElementById(event.currentTarget.name);
     element.scrollIntoView({ behavior: "smooth", block: "center" });
   };
