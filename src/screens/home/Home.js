@@ -15,7 +15,7 @@ const Home = (props) => {
 
   return (
     <div className="container">
-      <div className="row w-100 main-body d-flex justify-content-center align-items-center">
+      <div className="row main-body d-flex justify-content-center align-items-center">
         <div className="col-xl-6 col-lg-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
           <AnimatedHeader />
           <p data-aos="fade-up" data-aos-delay="400">Software Engineer</p>
